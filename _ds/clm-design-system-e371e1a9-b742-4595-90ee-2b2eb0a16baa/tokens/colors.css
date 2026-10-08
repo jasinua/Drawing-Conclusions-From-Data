@@ -1,0 +1,26 @@
+/* Exact values from tenantkey-ui-components/src/styles/theme.css */
+:root{
+--white:#fff;--black:#000;
+--gray-25:#fdfdfd;--gray-50:#fafafa;--gray-100:#f5f5f5;--gray-200:#e9eaeb;--gray-300:#d5d7da;--gray-400:#a4a7ae;--gray-500:#717680;--gray-550:#606266;--gray-600:#535862;--gray-700:#414651;--gray-800:#252b37;--gray-900:#181d27;--gray-950:#0a0d12;
+--brand-25:#e7f4fa;--brand-50:#cfeaf6;--brand-100:#b7e0f2;--brand-200:#9fd6ee;--brand-300:#88ccea;--brand-400:#70c1e6;--brand-500:#58b7e2;--brand-600:#1199d6;--brand-700:#0d7aab;--brand-800:#0a5b80;--brand-900:#063d55;--brand-950:#031e2a;
+--error-25:#fffbfa;--error-50:#fef3f2;--error-100:#fee4e2;--error-200:#fecdca;--error-300:#fda29b;--error-400:#f97066;--error-500:#f04438;--error-600:#d92d20;--error-700:#b42318;--error-800:#912018;--error-900:#7a271a;
+--warning-25:#fffcf5;--warning-50:#fffaeb;--warning-100:#fef0c7;--warning-200:#fedf89;--warning-300:#fec84b;--warning-400:#fdb022;--warning-500:#f79009;--warning-600:#dc6803;--warning-700:#b54708;--warning-800:#93370d;--warning-900:#7a2e0e;
+--success-25:#f6fef9;--success-50:#ecfdf3;--success-100:#dcfae6;--success-200:#abefca;--success-300:#75e0a7;--success-400:#47cd89;--success-500:#17b26a;--success-600:#079455;--success-700:#067647;--success-800:#085d3a;--success-900:#074d31;
+--gray-blue-50:#f8f9fc;--gray-blue-100:#eaecf5;--gray-blue-200:#d5d9eb;--gray-blue-600:#3e4784;--gray-blue-700:#363f72;
+--blue-light-50:#f0f9ff;--blue-light-100:#e0f2fe;--blue-light-200:#b9e6fe;--blue-light-600:#0086c9;--blue-light-700:#026aa2;
+--blue-50:#eff8ff;--blue-100:#d1e9ff;--blue-200:#b2ddff;--blue-500:#2e90fa;--blue-600:#1570ef;--blue-700:#175cd3;
+--indigo-50:#eef4ff;--indigo-100:#e0eaff;--indigo-200:#c7d7fe;--indigo-600:#444ce7;--indigo-700:#3538cd;
+--purple-50:#f4f3ff;--purple-100:#ebe9fe;--purple-200:#d9d6fe;--purple-600:#6938ef;--purple-700:#5925dc;
+--pink-50:#fdf2fa;--pink-100:#fce7f6;--pink-200:#fcceee;--pink-600:#dd2590;--pink-700:#c11574;
+--orange-50:#fef6ee;--orange-100:#fdead7;--orange-200:#f9dbaf;--orange-600:#e04f16;--orange-700:#b93815;
+--fuchsia-100:#fbe8ff;--fuchsia-600:#ba24d5;
+--navy:#154273;
+--focus-ring:var(--brand-500);
+--focus-ring-input:var(--blue-500);
+--popup-border:#d5d7da;
+--overlay-scrim:rgb(10 13 18 / 0.7);
+--text-primary:var(--gray-900);--text-secondary:var(--gray-700);--text-muted:var(--gray-600);--text-label:var(--gray-600);--text-placeholder:var(--gray-400);--text-inverse:var(--white);
+--link:var(--brand-700);--link-hover:var(--brand-800);
+--status-not-started:var(--brand-600);--status-in-progress:var(--warning-600);--status-success:var(--success-600);--status-failed:var(--error-600);--status-pending:var(--warning-600);
+--surface-page:var(--gray-50);--surface-card:var(--white);--surface-table-head:var(--gray-100);--border-default:var(--gray-200);--border-control:var(--gray-300);--border-hover:var(--brand-300);
+}

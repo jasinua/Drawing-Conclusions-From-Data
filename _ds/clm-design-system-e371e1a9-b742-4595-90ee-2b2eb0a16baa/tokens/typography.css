@@ -1,0 +1,24 @@
+@font-face{font-family:'Lato';font-weight:300;font-style:normal;src:url('https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwiPHA.woff2') format('woff2')}
+@font-face{font-family:'Lato';font-weight:400;font-style:normal;src:url('https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXiWtFCc.woff2') format('woff2')}
+@font-face{font-family:'Lato';font-weight:700;font-style:normal;src:url('https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPHA.woff2') format('woff2')}
+@font-face{font-family:'Lato';font-weight:900;font-style:normal;src:url('https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPHA.woff2') format('woff2')}
+/* Sizes follow the Tk Tailwind scale: text-xs 12/16, text-sm 14/20, text-base 16/24, text-lg 18/28, text-3xl 30/36 */
+:root{
+--font-sans:'Lato','Helvetica Neue',Arial,sans-serif;
+--text-page-title:700 24px/32px var(--font-sans);
+--text-section-title:700 20px/28px var(--font-sans);
+--text-popup-title:600 17px/24px var(--font-sans);
+--text-dialog-title:600 18px/28px var(--font-sans);
+--text-form-label:500 14px/20px var(--font-sans);
+--text-body:400 14px/20px var(--font-sans);
+--text-body-strong:500 14px/20px var(--font-sans);
+--text-input:400 16px/24px var(--font-sans);
+--text-card-title:600 14px/20px var(--font-sans);
+--text-button:600 14px/20px var(--font-sans);
+--text-caption:500 12px/16px var(--font-sans);
+--text-table-header:600 12px/16px var(--font-sans);
+--text-eyebrow:600 12px/16px var(--font-sans);
+--text-stat-value:600 30px/36px var(--font-sans);
+--text-toast-title:700 16px/24px var(--font-sans);
+--tracking-eyebrow:0.04em;
+}
