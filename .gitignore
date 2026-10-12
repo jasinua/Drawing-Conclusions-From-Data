@@ -1,0 +1,5 @@
+.DS_Store
+node_modules/
+.netlify/
+# Raw textbook screenshots used as source material; the deck only needs images/
+Screenshot *.png

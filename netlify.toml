@@ -1,0 +1,4 @@
+# Static site: no build step. Netlify publishes the repo root and serves index.html,
+# which forwards to the deck.
+[build]
+  publish = "."
