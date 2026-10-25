@@ -1,0 +1,49 @@
+Hi, I'm Sigma! Let's see what data can really tell us.	Përshëndetje, jam Sigma! Të shohim çfarë na tregojnë realisht të dhënat.
+What can we actually conclude? Think first.	Çfarë mund të përfundojmë realisht? Mendo së pari.
+Describe the data first. Then infer.	Përshkruaj të dhënat së pari. Pastaj nxirr përfundime.
+Your conclusion is only as good as your sample.	Përfundimi yt është po aq i mirë sa mostra jote.
+Vote first: 500, 1,000 or 2,000?	Voto së pari: 500, 1,000 apo 2,000?
+Random picks from the whole jar. No favorites.	Zgjedhje të rastësishme nga e gjithë kavanoza. Pa të preferuar.
+4x the students only halves the margin of error.	4× më shumë studentë e përgjysmojnë vetëm marzhin e gabimit.
+Six steps, and the last one loops back to the start.	Gjashtë hapa, dhe i fundit kthehet te fillimi.
+Only an experiment can talk about cause.	Vetëm një eksperiment mund të flasë për shkakun.
+Spot the confounder: course load!	Gjej ndryshoren ngatërruese: ngarkesa e lëndëve!
+A correlation is not proof of cause.	Një korrelacion nuk është provë e shkakut.
+A large p-value never proves H0.	Një vlerë p e madhe nuk e provon kurrë H0.
+How many standard errors from the claim?	Sa gabime standarde larg pretendimit?
+Significant is not the same as important.	I rëndësishëm statistikisht nuk është e njëjta me i rëndësishëm.
+You can only generalize to who you sampled.	Mund të përgjithësosh vetëm te ata që ke marrë në mostër.
+18 hours of sleep? A GPA above 4.0?!	18 orë gjumë? Një notë mesatare mbi 4.0?!
+False positive or false negative?	Pozitiv i rremë apo negativ i rremë?
+Random and simultaneous. Remember both.	E rastësishme dhe njëkohësisht. Mbaji mend të dyja.
+A higher average is not yet proof.	Një mesatare më e lartë nuk është ende provë.
+January vs December? Time is a confounder.	Janari kundrejt dhjetorit? Koha është ndryshore ngatërruese.
+QuickSight describes. Inference decides.	QuickSight përshkruan. Inferenca vendos.
+Click a chart to zoom in!	Kliko një grafik për ta zmadhuar!
+Try, retry... p = 0.04? That is p-hacking.	Provo, riprovo... p = 0.04? Kjo është p-hacking.
+Take your time, then pick one.	Merr kohën, pastaj zgjidh një.
+Data does not hand us the truth by itself.	Të dhënat nuk na e japin të vërtetën vetë.
+Is 60 Heads just luck?	A janë 60 Koka thjesht fat?
+Count 60 or more: 3 of 100 trials.	Numëro 60 ose më shumë: 3 nga 100 prova.
+S, T, A, R: tell the story in four steps.	S, T, A, R: tregoje historinë në katër hapa.
+Try the blanks before you click!	Provo boshllëqet para se të klikosh!
+p < alpha: reject. p >= alpha: fail to reject.	p < alfa: refuzojmë. p >= alfa: nuk refuzojmë.
+Thank you for listening! Any questions?	Faleminderit që më dëgjuat! Ka pyetje?
+Know your variables: explanatory, response, confounding.	Njih ndryshoret: shpjeguese, përgjigjeje, ngatërruese.
+A mean is not a proportion. Time for the t-test.	Mesatarja nuk është proporcion. Koha për testin t.
+Same distance, but less spread means more surprise.	E njëjta largësi, por më pak shpërndarje do të thotë më shumë befasi.
+Far from 0 means a very small p-value.	Larg nga 0 do të thotë vlerë p shumë e vogël.
+An A/B test is an experiment with random assignment.	Një test A/B është një eksperiment me caktim të rastësishëm.
+Unlikely by chance alone? Then it is significant.	Pak e mundshme vetëm nga rastësia? Atëherë është e rëndësishme.
+The null is the status quo. It always has an equals sign.	Hipoteza zero është gjendja ekzistuese. Gjithmonë ka shenjën e barazimit.
+Reject the null means yes, something changed!	Refuzimi i hipotezës zero do të thotë po, diçka ndryshoi!
+The p-value: how surprising are the data if the null is true?	Vlera p: sa befasuese janë të dhënat nëse hipoteza zero është e vërtetë?
+Touch Sigma	Prek Sigmën
+donate.example.org	donate.example.org
+Jan	Jan
+Mar	Mar
+CSV	CSV
+Amazon QuickSight	Amazon QuickSight
+Histogram	Histogram
+p-hacking	p-hacking
+EDA	EDA

@@ -1,0 +1,178 @@
+DRAWING CONCLUSIONS FROM DATA	DHËNIA E PËRFUNDIMEVE NGA TË DHËNAT
+Can Data Tell Us What Is True?	A mund të na tregojnë të dhënat çfarë është e vërtetë?
+We collect data every day.	Ne mbledhim të dhëna çdo ditë.
+But how do we know what that data actually tells us?	Por si e dimë çfarë na thonë në të vërtetë ato të dhëna?
+DATA	TË DHËNAT
+ANALYSIS	ANALIZA
+CONCLUSION	PËRFUNDIMI
+CASE A · SLEEP & GPA	RASTI A · GJUMI DHE NOTA MESATARE
+What can we actually conclude from this?	Çfarë mund të përfundojmë realisht nga kjo?
+STUDENT	STUDENTI
+SLEEP	GJUMI
+GPA	NOTA MES.
+sleep_gpa.csv · 400 students	sleep_gpa.csv · 400 studentë
+Students who sleep more always get higher GPAs.	Studentët që flenë më shumë marrin gjithmonë nota mesatare më të larta.
+The sample shows an association between sleep and GPA.	Mostra tregon një lidhje midis gjumit dhe notës mesatare.
+Sleeping more causes GPA to increase.	Të flesh më shumë shkakton rritjen e notës mesatare.
+“Always” is too strong. Some short sleepers in the sample still have high GPAs.	“Gjithmonë” është shumë e fortë. Disa studentë që flenë pak kanë përsëri nota të larta në mostër.
+Yes. The sample shows a pattern. It says nothing yet about why, or whether it holds beyond these 400 students.	Po. Mostra tregon një model. Nuk thotë ende asgjë për arsyen, ose nëse vlen përtej këtyre 400 studentëve.
+This is observational data. On its own it cannot show cause and effect.	Këto janë të dhëna vëzhgimi. Vetë ato nuk mund të tregojnë shkakun dhe pasojën.
+FOUNDATIONS	THEMELET
+Exploratory analysis and statistical inference	Analiza eksploruese dhe inferenca statistikore
+EXPLORATORY DATA ANALYSIS	ANALIZA EKSPLORUESE E TË DHËNAVE
+What is happening in this dataset?	Çfarë po ndodh në këtë bashkësi të dhënash?
+Charts	Grafikë
+Means	Mesatare
+Distributions	Shpërndarje
+Patterns	Modele
+Outliers	Vlera ekstreme
+STATISTICAL INFERENCE	INFERENCA STATISTIKORE
+What can we conclude about a larger population?	Çfarë themi për një popullatë më të gjerë?
+Statistical inference	Inferenca statistikore
+is the process of using data analysis to estimate the properties of some underlying distribution. More generally, we use it to draw conclusions about a population of interest from our sample data.	është procesi i përdorimit të analizës së të dhënave për të vlerësuar veti të një shpërndarjeje themelore. Më përgjithësisht, e përdorim për të nxjerrë përfundime për një popullatë nga të dhënat e mostrës.
+Sample	Mostra
+Hypothesis	Hipoteza
+Test	Testi
+p-value	Vlera p
+Inference	Inferenca
+DESCRIPTION	PËRSHKRIMI
+INFERENCE	INFERENCA
+Population and sample	Popullata dhe mostra
+1 dot = 10 students	1 pikë = 10 studentë
+● in sample	● në mostër
+POPULATION	POPULLATA
+SAMPLE	MOSTRA
+Population	Popullata
+Data	Të dhënat
+Conclusion	Përfundimi
+Your conclusion is only as good as your sample.	Përfundimi yt është po aq i mirë sa mostra jote.
+Which sample size would you trust?	Cilës madhësie mostre do t'i besoje?
+We want the average GPA of 10,000 students. We can only survey some of them.	Duam notën mesatare të 10,000 studentëve. Mund të anketojmë vetëm disa prej tyre.
+SURVEY	ANKETA
+students	studentë
+Surveying {{ jar.label }} students	Duke anketuar {0} studentë
+Replay	Përsërit
+POPULATION · 10,000	POPULLATA · 10,000
+1 dot = 20 students	1 pikë = 20 studentë
+SAMPLE · {{ jar.label }}	MOSTRA · {0}
+sorted by GPA	e renditur sipas notës mesatare
+x̄ = {{ jar.mean }}	x̄ = {0}
+3.02 true mean	3.02 mesatarja e vërtetë
+The scientific method	Metoda shkencore
+CONCLUSIONS	PËRFUNDIMET
+LEAD TO NEW	SHPIEN NË
+QUESTIONS	PYETJE TË REJA
+Ask	Pyet
+Research	Hulumto
+Hypothesize	Hipotezo
+Collect	Mblidh
+Analyze	Analizo
+Conclude	Përfundo
+What are we trying to find out?	Çfarë po përpiqemi të zbulojmë?
+IN OUR STUDY	NË STUDIMIN TONË
+Does sleeping more relate to better academic performance?	A lidhet gjumi më i gjatë me rezultate më të mira akademike?
+What do we already know?	Çfarë dimë tashmë?
+Earlier studies link sleep to memory and concentration.	Studimet e mëparshme e lidhin gjumin me kujtesën dhe përqendrimin.
+What do we expect?	Çfarë presim?
+Students who sleep more have higher GPAs.	Studentët që flenë më shumë kanë nota mesatare më të larta.
+How will we get the data?	Si do t'i marrim të dhënat?
+Survey 400 students: sleep hours, study hours, course load, GPA.	Anketojmë 400 studentë: orët e gjumit, orët e studimit, ngarkesën e lëndëve, notën mesatare.
+What does the sample show?	Çfarë tregon mostra?
+Scatter plot, correlation, hypothesis test.	Diagram shpërndarjeje, korrelacion, test hipotezash.
+What can we infer?	Çfarë mund të nxjerrim si përfundim?
+An association in the population our sample represents. Not a cause.	Një lidhje në popullatën që përfaqëson mostra jonë. Jo një shkak.
+Experiments and variables	Eksperimentet dhe ndryshoret
+DEFINITION	PËRKUFIZIM
+Experiment	Eksperiment
+A way to collect data by intentionally applying a treatment to specific groups and then measuring their response.	Një mënyrë për të mbledhur të dhëna duke aplikuar me qëllim një trajtim te grupe të caktuara dhe pastaj duke matur përgjigjen e tyre.
+Explanatory variable	Ndryshore shpjeguese
+A variable in an experiment or study that we suspect causes, influences, or is associated with the response variable.	Një ndryshore në një eksperiment ose studim që dyshojmë se shkakton, ndikon ose lidhet me ndryshoren e përgjigjes.
+Response variable	Ndryshore përgjigjeje
+The variable in an experiment or study that we suspect is caused by, influenced by, or associated with other variables of interest.	Ndryshorja në një eksperiment ose studim që dyshojmë se shkaktohet, ndikohet ose lidhet me ndryshore të tjera me interes.
+Confounding variable	Ndryshore ngatërruese
+An “extra” variable that researchers didn’t account for, which relates to both a response variable and an associated explanatory variable.	Një ndryshore “shtesë” që hulumtuesit nuk e morën parasysh, e cila lidhet si me ndryshoren e përgjigjes, ashtu edhe me ndryshoren shpjeguese përkatëse.
+STUDY DESIGN	DIZAJNI I STUDIMIT
+How should we collect the data?	Si duhet t'i mbledhim të dhënat?
+OBSERVATIONAL STUDY	STUDIM VËZHGIMI
+Observe	Vëzhgo
+No treatment is assigned.	Nuk caktohet asnjë trajtim.
+EXPERIMENT	EKSPERIMENT
+Control	Kontrollo
+Researchers actively assign treatments.	Hulumtuesit caktojnë aktivisht trajtimet.
+Select a study design.	Zgjidh një dizajn studimi.
+Students choose their own sleep. We only record it.	Studentët zgjedhin vetë gjumin e tyre. Ne vetëm e regjistrojmë.
+A random process decides who gets the treatment.	Një proces i rastësishëm vendos kush merr trajtimin.
+CONTROL	KONTROLLI
+TREATMENT	TRAJTIMI
+● sleeps 8 h +	● fle 8 orë +
+● sleeps less	● fle më pak
+Is sleep associated with GPA?	A lidhet gjumi me notën mesatare?
+EXPLANATORY VARIABLE	NDRYSHORJA SHPJEGUESE
+Sleep hours	Orët e gjumit
+RESPONSE VARIABLE	NDRYSHORJA E PËRGJIGJES
+Next	Tjetra
+ASSOCIATION	LIDHJA
+Sleep	Gjumi
+Course load	Ngarkesa e lëndëve
+Stress	Stresi
+Study time	Koha e studimit
+Health	Shëndeti
+Work	Puna
+CONFOUNDING VARIABLE	NDRYSHORJA NGATËRRUESE
+Correlation is not causation	Korrelacioni nuk është shkakësi
+r = {{ rLabel }}	r = {0}
+There is a positive correlation.	Ka një korrelacion pozitiv.
+Does this prove sleep causes higher GPA?	A provon kjo se gjumi shkakton notë mesatare më të lartë?
+YES	PO
+NO	JO
+Correlation shows a relationship. It does not by itself prove causation.	Korrelacioni tregon një marrëdhënie. Vetë ai nuk provon shkakësinë.
+Dots now colored by course load:	Pikat tani janë ngjyrosur sipas ngarkesës së lëndëve:
+6–7 courses	6–7 lëndë
+3–4 courses	3–4 lëndë
+5 courses	5 lëndë
+The language of inference	Gjuha e inferencës
+Null Hypothesis	Hipoteza zero
+No effect, no difference, no relationship.	Pa efekt, pa ndryshim, pa marrëdhënie.
+Alternative Hypothesis	Hipoteza alternative
+There is an effect, difference or relationship.	Ka një efekt, ndryshim ose marrëdhënie.
+How surprising is our result if H₀ is true?	Sa befasues është rezultati ynë nëse H₀ është e vërtetë?
+Significance level	Niveli i rëndësisë
+Our threshold, set before the test. Usually 0.05.	Pragu ynë, caktuar para testit. Zakonisht 0.05.
+Reject H₀	Refuzojmë H₀
+Fail to reject H₀	Nuk refuzojmë H₀
+A large p-value does not prove H₀. It means the data are not surprising enough to reject it.	Një vlerë p e madhe nuk provon H₀. Do të thotë që të dhënat nuk janë mjaftueshëm befasuese për ta refuzuar.
+Inference for a mean	Inferenca për një mesatare
+NULL HYPOTHESIS · H₀	HIPOTEZA ZERO · H₀
+The mean GPA at their school is 3.0 (μ = 3.0)	Nota mesatare në shkollën e tyre është 3.0 (μ = 3.0)
+ALTERNATIVE HYPOTHESIS · Hₐ	HIPOTEZA ALTERNATIVE · Hₐ
+The mean GPA at their school is over 3.0 (μ > 3.0)	Nota mesatare në shkollën e tyre është mbi 3.0 (μ > 3.0)
+The sample mean is 3.971. A mean is not a proportion, so the simulation approach from Michael's coin will not work. A robust alternative is the	Mesatarja e mostrës është 3.971. Mesatarja nuk është proporcion, ndaj qasja me simulim nga monedha e Mikaelit nuk funksionon. Një alternativë e fuqishme është
+t-test	testi t
+A statistical method that, among other things, can determine if a significant difference exists between the mean of a group and a specified value (one-sample t-test) or between the means of two groups (two-sample t-test).	Një metodë statistikore që, ndër të tjera, mund të përcaktojë nëse ekziston një ndryshim i rëndësishëm midis mesatares së një grupi dhe një vlere të caktuar (testi t me një mostër) ose midis mesatareve të dy grupeve (testi t me dy mostra).
+t-test statistic	Statistika e testit t
+A value calculated from the data that characterizes the extremeness of the results relative to the null hypothesis: do the observed data deviate significantly from what we would expect under that hypothesis?	Një vlerë e llogaritur nga të dhënat që karakterizon sa ekstreme janë rezultatet në lidhje me hipotezën zero: a devijojnë të dhënat e vëzhguara ndjeshëm nga ajo që do të prisnim nën atë hipotezë?
+Same distance, different variability	E njëjta largësi, ndryshueshmëri ndryshe
+Both sample means are 3.971, the same distance from 3.0. With less variability (left), 3.971 is	Të dyja mesataret e mostrës janë 3.971, në të njëjtën largësi nga 3.0. Me ndryshueshmëri më të vogël (majtas), 3.971 është
+much more surprising	shumë më befasuese
+The one-sample t-test	Testi t me një mostër
+Next step	Hapi tjetër
+CLAIM	PRETENDIMI
+difference = 0.24	ndryshimi = 0.24
+1 SE	1 GS
+2 SE	2 GS
+Is this difference large compared with the variability in the sample?	A është ky ndryshim i madh krahasuar me ndryshueshmërinë në mostër?
+SE = s / √n = 0.68 / √40 = 0.108. The t-statistic counts how many SE units the sample sits from μ₀.	GS = s / √n = 0.68 / √40 = 0.108. Statistika t numëron sa njësi GS është mostra larg μ₀.
+p-VALUE	VLERA p
+The null distribution of t	Shpërndarja zero e t
+If H₀ is true, t should be	Nëse H₀ është e vërtetë, t duhet të jetë
+close to 0	afër 0
+. The farther from 0, the more surprising our data.	. Sa më larg nga 0, aq më befasuese janë të dhënat tona.
+The null distribution depends on the sample size (here n = 58). The p-value is the area to the right of our t, in the direction of Hₐ.	Shpërndarja zero varet nga madhësia e mostrës (këtu n = 58). Vlera p është sipërfaqja në të djathtë të t-së sonë, në drejtimin e Hₐ.
+t = 21.8, p ≈ 0: strong evidence to reject H₀. The average GPA of students at their school, like those in the sample, is	t = 21.8, p ≈ 0: dëshmi e fortë për të refuzuar H₀. Nota mesatare e studentëve në shkollën e tyre, si ata në mostër, është
+greater than 3.0	më e madhe se 3.0
+Statistical significance	Rëndësia statistikore
+Study 1	Studimi 1
+Study 2	Studimi 2
+→ Statistically significant	→ Statistikisht i rëndësishëm
+→ Not statistically significant	→ Statistikisht jo i rëndësishëm
+Significance is a decision rule. It does not say the effect is large or important.	Rëndësia është një rregull vendimmarrjeje. Nuk thotë që efekti është i madh ose i rëndësishëm.

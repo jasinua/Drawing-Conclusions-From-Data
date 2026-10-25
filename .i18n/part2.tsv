@@ -1,0 +1,149 @@
+Scope of inference	Shtrirja e inferencës
+OUR SAMPLE · 400 UNIVERSITY STUDENTS	MOSTRA YNË · 400 STUDENTË UNIVERSITARË
+Who can we reasonably generalize to?	Te kush mund të përgjithësojmë në mënyrë të arsyeshme?
+Every human being	Çdo qenie njerëzore
+All university students	Të gjithë studentët universitarë
+The population represented by the sampling process	Popullata e përfaqësuar nga procesi i marrjes së mostrës
+The sample contains no children, retirees or non-students.	Mostra nuk përmban fëmijë, pensionistë ose jo-studentë.
+Only if the 400 were sampled from all university students.	Vetëm nëse 400-ët janë marrë nga të gjithë studentët universitarë.
+Inference depends on what population the sample actually represents.	Inferenca varet nga cilën popullatë përfaqëson në të vërtetë mostra.
+Students reached by our sampling	Studentët e arritur nga marrja jonë e mostrës
+Extrapolation	Ekstrapolimi
+Extend the trend to 18 hours	Zgjat prirjen deri në 18 orë
+“18 hours of sleep will keep improving GPA.”	“18 orë gjumë do ta përmirësojnë vazhdimisht notën mesatare.”
+Don't extend conclusions beyond the data without justification.	Mos i zgjat përfundimet përtej të dhënave pa arsyetim.
+Type I and Type II errors	Gabimet e Tipit I dhe të Tipit II
+FALSE POSITIVE	POZITIV I RREMË
+FALSE NEGATIVE	NEGATIV I RREMË
+H₀ true	H₀ e vërtetë
+H₀ false	H₀ e gabuar
+Type I error	Gabim i Tipit I
+false positive	pozitiv i rremë
+Correct	E saktë
+Type II error	Gabim i Tipit II
+false negative	negativ i rremë
+Type I	Tipi I
+False Positive	Pozitiv i rremë
+We think there is an effect when there isn't one.	Mendojmë se ka një efekt kur nuk ka.
+Probability = α	Probabiliteti = α
+Type II	Tipi II
+False Negative	Negativ i rremë
+We fail to detect an effect that actually exists.	Nuk arrijmë të zbulojmë një efekt që ekziston në të vërtetë.
+Probability = β	Probabiliteti = β
+CASE B · WEBSITE DONATIONS	RASTI B · DHURATAT NË FAQE
+What is an A/B test?	Çfarë është një test A/B?
+A/B testing	Testimi A/B
+is a randomized experiment where two versions, A and B, are compared to evaluate which one performs better in a specific context.	është një eksperiment i rastësishëm ku krahasohen dy versione, A dhe B, për të vlerësuar cili performon më mirë në një kontekst të caktuar.
+is usually the original version,	është zakonisht versioni origjinal,
+a new one. Think of a controlled experiment in digital space: web pages, social media, emails. The key is	një i ri. Mendoje si një eksperiment i kontrolluar në hapësirën dixhitale: faqe interneti, rrjete sociale, email-e. Çelësi është
+random assignment	caktimi i rastësishëm
+: people already visiting are randomly shown A or B.	: njerëzve që po vizitojnë u shfaqet rastësisht A ose B.
+HOW WE MEASURE THE RESPONSE	SI E MATIM PËRGJIGJEN
+Average view duration	Kohëzgjatja mesatare e shikimit
+Total watch time divided by total video plays, including replays.	Koha totale e shikimit pjesëtuar me numrin total të luajtjeve të videos, përfshirë ripërsëritjet.
+Completion rate	Shkalla e përfundimit
+Users who complete a goal divided by users eligible to, times 100.	Përdoruesit që plotësojnë një objektiv pjesëtuar me përdoruesit që mund ta bënin, shumëzuar me 100.
+Sharing	Ndarja
+A user's content distributed across at least one social platform.	Përmbajtja e një përdoruesi e shpërndarë në të paktën një platformë sociale.
+Click-through rate	Shkalla e klikimeve
+Clicks on a link or button divided by the times it was seen.	Klikimet në një lidhje ose buton pjesëtuar me herët që është parë.
+Also: reviews (counts or sentiment analysis), likes and emojis.	Gjithashtu: vlerësime (numri ose analiza e ndjenjave), pëlqime dhe emoji.
+Does changing a donation page increase donations?	A i rrit dhuratat ndryshimi i faqes së dhurimit?
+RANDOM	E RASTËSISHME
+SIMULTANEOUS	NJËKOHËSISHT
+50% of visitors → A	50% e vizitorëve → A
+50% of visitors → B	50% e vizitorëve → B
+Visitors	Vizitorët
+Donations	Dhuratat
+Analysis	Analiza
+VERSION A · ORIGINAL	VERSIONI A · ORIGJINAL
+Donate Now	Dhuro tani
+Support our work with a one-time gift.	Mbështet punën tonë me një dhuratë të vetme.
+Donate	Dhuro
+VERSION B · MODIFIED	VERSIONI B · I NDRYSHUAR
+Help Provide Clean Water	Ndihmo të sigurojmë ujë të pastër
+€20 gives one family clean water for a month.	€20 i japin një familjeje ujë të pastër për një muaj.
+Is the difference statistically significant?	A është ndryshimi statistikisht i rëndësishëm?
+Average donation among donors · donation_ab_test.csv · 311 donors (A), 320 donors (B)	Dhurata mesatare mes dhuruesve · donation_ab_test.csv · 311 dhurues (A), 320 dhurues (B)
+B looks higher. Could a gap this size appear by chance alone?	B duket më e lartë. A mund të shfaqet një diferencë kësaj madhësie vetëm nga rastësia?
+TWO-SAMPLE t-TEST	TESTI t ME DY MOSTRA
+p < α → Reject H₀	p < α → Refuzojmë H₀
+Testing	Testimi
+Evidence	Dëshmia
+Implementation	Zbatimi
+100% Traffic	100% e trafikut
+A · {{ abS.aL }}	A · {0}
+B · {{ abS.bL }}	B · {0}
+Why both versions run at the same time	Pse të dy versionet ekzekutohen në të njëjtën kohë
+Feb	Shk
+Apr	Pri
+May	Maj
+Jun	Qer
+Jul	Kor
+Aug	Gus
+Sep	Sht
+Oct	Tet
+Nov	Nën
+Dec	Dhj
+BAD SETUP	SHTRIM I KEQ
+One after another	Njëri pas tjetrit
+Weather	Moti
+Holidays	Festat
+Economy	Ekonomia
+Marketing	Marketingu
+The difference may not come from the website version.	Ndryshimi mund të mos vijë nga versioni i faqes.
+GOOD SETUP	SHTRIM I MIRË
+At the same time	Në të njëjtën kohë
+Both versions see the same weather, holidays, economy and marketing.	Të dyja versionet kanë të njëjtin mot, festa, ekonomi dhe marketing.
+CLOUD ANALYTICS	ANALITIKA NË RE
+What is Amazon QuickSight?	Çfarë është Amazon QuickSight?
+A cloud BI service that turns data into charts in the browser. No servers to run.	Një shërbim BI në re që i kthen të dhënat në grafikë në shfletues. Pa servera për të menaxhuar.
+Data source	Burimi i të dhënave
+Where the data lives: a CSV upload, S3, a database.	Ku ndodhen të dhënat: një ngarkim CSV, S3, një bazë të dhënash.
+Dataset	Bashkësia e të dhënave
+Loaded into SPICE, QuickSight's in-memory engine.	Ngarkohet në SPICE, motorin e QuickSight në memorie.
+Drag fields onto a visual: scatter, bar, histogram.	Zvarrit fushat te një vizualizim: shpërndarje, shtylla, histogram.
+Dashboard	Paneli
+Publish the visuals and share them.	Publiko vizualizimet dhe ndaji ato.
+WHAT WE USE IT FOR	PËR ÇFARË E PËRDORIM
+Describe the data: patterns, groups, distributions.	Përshkruajmë të dhënat: modele, grupe, shpërndarje.
+WHAT IT DOES NOT DO FOR US	ÇFARË NUK BËN PËR NE
+Decide if a pattern is real. That is statistical inference.	Të vendosë nëse një model është i vërtetë. Kjo është inferenca statistikore.
+From CSV to insight	Nga CSV te kuptimi
+RESULTS	REZULTATET
+SCATTER SETUP	KONFIGURIMI I SHPËRNDARJES
+BAR SETUP	KONFIGURIMI I SHTYLLAVE
+HISTOGRAM SETUP	KONFIGURIMI I HISTOGRAMIT
+Student / Website Data	Të dhëna studentësh / faqeje
+Charts & Statistics	Grafikë dhe statistika
+Sleep Hours vs GPA	Orët e gjumit kundrejt notës mesatare
+Scatter plot	Diagram shpërndarjeje
+Control vs Treatment	Kontrolli kundrejt trajtimit
+Bar chart	Grafik me shtylla
+GPA Distribution	Shpërndarja e notës mesatare
+ETHICS	ETIKA
+What happens when we manipulate the analysis?	Çfarë ndodh kur e manipulojmë analizën?
+Run test	Ekzekuto testin
+“Try another analysis”	“Provo një analizë tjetër”
+“Collect a little more data”	“Mblidh pak më shumë të dhëna”
+Changing decisions until the desired p-value appears undermines the validity of the result.	Ndryshimi i vendimeve derisa të shfaqet vlera p e dëshiruar cenon vlefshmërinë e rezultatit.
+REPRODUCIBILITY	RIPRODHUESHMËRIA
+Predefine α	Përcakto α paraprakisht
+Document the analysis	Dokumento analizën
+Share data when appropriate	Ndaj të dhënat kur është e përshtatshme
+Allow others to verify the result	Lejo të tjerët ta verifikojnë rezultatin
+YOUR TURN	RRADHA JOTE
+You collected the data. What should you conclude?	I mblodhe të dhënat. Çfarë duhet të përfundosh?
+Scenario: Version B has a higher average donation.	Skenari: Versioni B ka një dhuratë mesatare më të lartë.
+B causes people to donate more.	B bën që njerëzit të dhurojnë më shumë.
+B has a higher observed average, but we need statistical evidence before deciding whether the difference is unlikely to be random.	B ka një mesatare të vëzhguar më të lartë, por na duhet dëshmi statistikore para se të vendosim nëse ndryshimi nuk ka gjasa të jetë i rastësishëm.
+B is definitely better.	B është patjetër më e mirë.
+Too early. Random assignment allows a causal claim only once the difference is shown to be unlikely under chance.	Shumë herët. Caktimi i rastësishëm lejon një pohim shkakësor vetëm kur tregohet se ndryshimi nuk ka gjasa nga rastësia.
+Right. Observed difference first, then a two-sample t-test, then a decision based on p and α.	Saktë. Fillimisht ndryshimi i vëzhguar, pastaj testi t me dy mostra, pastaj një vendim bazuar te p dhe α.
+Statistics never makes anything definite. Even a significant result carries a Type I error risk of α.	Statistika nuk e bën asgjë të prerë. Edhe një rezultat i rëndësishëm mbart rrezikun e gabimit të Tipit I prej α.
+RAW DATA	TË DHËNA TË PAPËRPUNUARA
+QUESTION	PYETJA
+HYPOTHESIS	HIPOTEZA
+STATISTICAL TEST	TESTI STATISTIKOR
+Data does not automatically give us the truth.	Të dhënat nuk na japin automatikisht të vërtetën.
+We need representative data, appropriate study design, statistical inference, and careful interpretation.	Na duhen të dhëna përfaqësuese, dizajn i përshtatshëm studimi, inferencë statistikore dhe interpretim i kujdesshëm.

@@ -1,0 +1,192 @@
+DO IT YOURSELF	BËJE VETË
+Is Michael's coin fair?	A është e drejtë monedha e Mikaelit?
+Michael flips his new coin 100 times and gets	Mikaeli hedh monedhën e tij të re 100 herë dhe merr
+60 Heads	60 Kokë
+. How surprising is that?	. Sa befasuese është kjo?
+Figure 7.7 simulates a fair coin: 100 flips, repeated for 100 trials.	Figura 7.7 simulon një monedhë të drejtë: 100 hedhje, të përsëritura për 100 prova.
+How many trials show exactly 60 Heads?	Sa prova tregojnë saktësisht 60 Kokë?
+Best estimate of the probability of a result as extreme as Michael's? (2 decimals)	Vlerësimi më i mirë i probabilitetit të një rezultati po aq ekstrem sa i Mikaelit? (2 shifra pas presjes)
+Is that probability high or low?	A është ky probabilitet i lartë apo i ulët?
+Evidence for or against a fair coin?	Dëshmi pro apo kundër një monedhe të drejtë?
+Describe the result with the STAR framework.	Përshkruaje rezultatin me modelin STAR.
+Solving it, step by step	Zgjidhja, hap pas hapi
+Back	Kthehu
+A · WHAT DOES A FAIR COIN DO?	A · ÇFARË BËN NJË MONEDHË E DREJTË?
+A computer flips a fair coin 100 times and counts the Heads. Then it repeats that 100 times.	Një kompjuter hedh një monedhë të drejtë 100 herë dhe numëron Kokat. Pastaj e përsërit këtë 100 herë.
+Each bar counts how many of the 100 trials ended with that many Heads.	Çdo shtyllë tregon sa nga 100 provat përfunduan me aq Koka.
+A · LOOK AT THE SHAPE	A · SHIKO FORMËN
+Most trials land close to	Shumica e provave bien afër
+Heads. That is what “fair” looks like.	Koka. Kështu duket një monedhë “e drejtë”.
+Far-out results, like 30 or 62, are rare.	Rezultatet shumë të largëta, si 30 ose 62, janë të rralla.
+B · FIND MICHAEL’S RESULT	B · GJEJ REZULTATIN E MIKAELIT
+of the 100 fair-coin trials landed on	nga 100 provat me monedhë të drejtë dolën
+exactly 60 Heads	saktësisht 60 Koka
+Michael’s coin: 60 Heads.	Monedha e Mikaelit: 60 Koka.
+C · COUNT “THIS EXTREME OR MORE”	C · NUMËRO “KAQ EKSTREME OSE MË SHUMË”
+Surprising means	Befasuese do të thotë
+60 or more	60 ose më shumë
+, not only exactly 60.	, jo vetëm saktësisht 60.
+of 100 trials	nga 100 prova
+D · HIGH OR LOW?	D · E LARTË APO E ULËT?
+Low	E ulët
+Only 3 red dots out of 100. A fair coin rarely does this.	Vetëm 3 pika të kuqe nga 100. Një monedhë e drejtë e bën rrallë këtë.
+E · EVIDENCE FOR OR AGAINST?	E · DËSHMI PRO APO KUNDËR?
+p < α, so	p < α, pra
+reject H₀	refuzojmë H₀
+: evidence the coin is	: dëshmi se monedha
+not fair	nuk është e drejtë
+Evidence, not proof. Exact binomial: 0.028. Counting both tails: 0.057, close to the line.	Dëshmi, jo provë. Binomiali i saktë: 0.028. Duke numëruar të dyja bishtat: 0.057, afër kufirit.
+A result is	Një rezultat është
+statistically significant	statistikisht i rëndësishëm
+if it is unlikely to occur due to chance alone, assuming the hypothesis under investigation is true.	nëse ka pak gjasa të ndodhë vetëm nga rastësia, duke supozuar se hipoteza në shqyrtim është e vërtetë.
+MICHAEL'S COIN	MONEDHA E MIKAELIT
+If the coin is fair, getting 60 or more Heads in 100 flips has a probability of about	Nëse monedha është e drejtë, probabiliteti për të marrë 60 ose më shumë Koka në 100 hedhje është afërsisht
+That is below α = 0.05, so we have evidence to reject “the coin is fair”.	Kjo është nën α = 0.05, pra kemi dëshmi për të refuzuar “monedha është e drejtë”.
+Whenever we have enough evidence to reject our original hypothesis, we say the result is	Sa herë që kemi dëshmi të mjaftueshme për të refuzuar hipotezën tonë origjinale, themi se rezultati është
+The result, in STAR	Rezultati, me STAR
+Situation	Situata
+Task	Detyra
+Action	Veprimi
+Result	Rezultati
+WHAT IS STAR?	ÇFARË ËSHTË STAR?
+A way to write up a result so that anyone can follow it.	Një mënyrë për ta shkruar një rezultat që kushdo ta ndjekë.
+· what happened	· çfarë ndodhi
+· what we had to decide	· çfarë duhej të vendosnim
+· what we did	· çfarë bëmë
+· what we found	· çfarë gjetëm
+SITUATION · WHAT HAPPENED	SITUATA · ÇFARË NDODHI
+Heads in 100 flips	Koka në 100 hedhje
+Michael has a new coin. A fair coin should land Heads about	Mikaeli ka një monedhë të re. Një monedhë e drejtë duhet të bjerë Kokë afërsisht
+times in 100.	herë në 100.
+Is 60 just luck, or is the coin biased?	A janë 60 thjesht fat, apo monedha është e anshme?
+TASK · WHAT WE MUST DECIDE	DETYRA · ÇFARË DUHET TË VENDOSIM
+· the coin is fair (50% Heads)	· monedha është e drejtë (50% Koka)
+· the coin is not fair	· monedha nuk është e drejtë
+Is 60 Heads surprising enough to doubt H₀?	A janë 60 Koka mjaftueshëm befasuese për të dyshuar te H₀?
+ACTION · WHAT WE DID	VEPRIMI · ÇFARË BËMË
+Flip a fair coin	Hedhim një monedhë të drejtë
+Count the Heads	Numërojmë Kokat
+Repeat for	Përsërisim për
+trials	prova
+Then count the trials with	Pastaj numërojmë provat me
+Heads. Seed 777 makes it repeatable.	Koka. Fara 777 e bën të përsëritshme.
+3 of 100 trials	3 nga 100 prova
+RESULT · WHAT WE FOUND	REZULTATI · ÇFARË GJETËM
+A fair coin gives 60 or more Heads in about 3% of trials. That is below α = 0.05, so we	Një monedhë e drejtë jep 60 ose më shumë Koka në rreth 3% të provave. Kjo është nën α = 0.05, pra
+Evidence, not proof. Counting both tails gives 0.057, close to the line.	Dëshmi, jo provë. Duke numëruar të dyja bishtat del 0.057, afër kufirit.
+Terms of statistical inference	Termat e inferencës statistikore
+POPULATION OF INTEREST	POPULLATA ME INTERES
+All possible flips of Michael's coin	Të gjitha hedhjet e mundshme të monedhës së Mikaelit
+WHAT WE WANT TO INFER	ÇFARË DUAM TË NXJERRIM
+Whether or not the coin is fair	Nëse monedha është e drejtë apo jo
+DATA WE HAVE	TË DHËNAT QË KEMI
+The 100 flips of the coin Michael handed us	100 hedhjet e monedhës që na dha Mikaeli
+The coin is fair	Monedha është e drejtë
+Typically explains study results due to chance alone. The neutral, status quo statement about a population characteristic: “no change”, “no effect”, “no difference”. It always has an	Zakonisht shpjegon rezultatet e studimit vetëm nga rastësia. Pohimi neutral, i gjendjes ekzistuese për një karakteristikë të popullatës: “pa ndryshim”, “pa efekt”, “pa dallim”. Gjithmonë ka shenjën
+sign.	.
+The coin is not fair	Monedha nuk është e drejtë
+Typically contradicts the null and reflects the researcher's suspicion about the population characteristic. It involves a	Zakonisht kundërshton hipotezën zero dhe pasqyron dyshimin e hulumtuesit për karakteristikën e popullatës. Përfshin shenjën
+or	ose
+What does “reject the null” mean?	Çfarë do të thotë “refuzojmë hipotezën zero”?
+Statistic and p-value	Statistika dhe vlera p
+Statistic	Statistika
+Any characteristic, aggregation, or function of our sample data. We compute statistics to estimate the population characteristics we want to draw conclusions about.	Çdo karakteristikë, përmbledhje ose funksion i të dhënave të mostrës sonë. I llogarisim statistikat për të vlerësuar karakteristikat e popullatës për të cilat duam të nxjerrim përfundime.
+In the coin example: the number of Heads in 100 flips. The proportion of Heads would work too.	Në shembullin e monedhës: numri i Kokave në 100 hedhje. Edhe proporcioni i Kokave do të funksiononte.
+The probability of obtaining a value of the statistic at least as surprising (extreme) as the observed statistic, assuming the null hypothesis is true.	Probabiliteti i marrjes së një vlere të statistikës që është të paktën aq befasuese (ekstreme) sa statistika e vëzhguar, duke supozuar se hipoteza zero është e vërtetë.
+Estimate it as the proportion of simulated statistics at least that surprising.	Vlerësoje si proporcionin e statistikave të simuluara që janë të paktën aq befasuese.
+Lower p-values are stronger evidence against the null.	Vlerat p më të ulëta janë dëshmi më e fortë kundër hipotezës zero.
+Group study or going solo?	Studim në grup apo vetëm?
+You think group study leads to higher test scores. Significance level:	Mendon se studimi në grup çon në rezultate më të larta në teste. Niveli i rëndësisë:
+H₀ · NULL	H₀ · ZERO
+There is	Nuk ka
+no difference	asnjë dallim
+in test scores between group study and individual study.	në rezultatet e testeve midis studimit në grup dhe atij individual.
+Hₐ · ALTERNATIVE	Hₐ · ALTERNATIVE
+Group study gives	Studimi në grup jep
+higher	më të larta
+test scores. Study method does have an effect.	rezultate në teste. Mënyra e studimit ka një efekt.
+SCENARIO 1	SKENARI 1
+If the p-value is	Nëse vlera p është
+, we should	, duhet ta
+(reject, fail to reject)	(refuzojmë, nuk refuzojmë)
+the null hypothesis because it is	hipotezën zero sepse është
+(below, above)	(nën, mbi)
+the significance level. Your friends should study	nivelin e rëndësisë. Miqtë e tu duhet të studiojnë
+(in groups, individually, either)	(në grup, individualisht, si të duan)
+, since we have evidence against the	, meqë kemi dëshmi kundër hipotezës
+(null, alternative)	(zero, alternative)
+hypothesis.	.
+SCENARIO 2	SKENARI 2
+, since we	, meqë
+(do, do not)	(kemi, nuk kemi)
+have evidence against the null hypothesis.	dëshmi kundër hipotezës zero.
+Filling in the blanks	Boshllëqet
+Scenario 1	Skenari 1
+Scenario 2	Skenari 2
+→ reject H₀ → evidence for Hₐ: group study seems to help.	→ refuzojmë H₀ → dëshmi për Hₐ: studimi në grup duket se ndihmon.
+→ fail to reject H₀ → no evidence of a difference. That is not proof the methods are equal.	→ nuk refuzojmë H₀ → pa dëshmi për ndryshim. Kjo nuk është provë që metodat janë të barabarta.
+THANK YOU	FALEMINDERIT
+Questions?	Pyetje?
+Thank you for listening.	Faleminderit që më dëgjuat.
+TRY IT YOURSELF	PROVOJE VETË
+OBSERVED RANGE · 4–10 h	INTERVALI I VËZHGUAR · 4–10 orë
+OUTSIDE OBSERVED RANGE	JASHTË INTERVALIT TË VËZHGUAR
+Maximum GPA 4.0	Nota mesatare maksimale 4.0
+Number of Heads in 100 flips	Numri i Kokave në 100 hedhje
+50 = typical	50 = tipike
+Michael: 60	Mikaeli: 60
+2 trials	2 prova
+60 or more: 3 of 100	60 ose më shumë: 3 nga 100
+reject	refuzojmë
+fail to reject	nuk refuzojmë
+below	nën
+above	mbi
+in groups	në grup
+individually	individualisht
+either	si të duan
+null	zero
+alternative	alternative
+do	kemi
+do not	nuk kemi
+Same 10,000 students, three survey sizes. Which one would you trust to estimate the average GPA? Click to vote.	Të njëjtët 10,000 studentë, tri madhësi ankete. Cilës do t'i besoje për të vlerësuar notën mesatare? Kliko për të votuar.
+Bigger samples land closer to the truth, with diminishing returns: 4× the students only halves the margin of error.	Mostrat më të mëdhenj bien më afër së vërtetës, me përfitime që pakësohen: 4× më shumë studentë e përgjysmojnë vetëm marzhin e gabimit.
+Survey 500 students	Anketo 500 studentë
+Repeat 25 times	Përsërit 25 herë
+Survey 1,000 students	Anketo 1,000 studentë
+Survey 2,000 students	Anketo 2,000 studentë
+Compare	Krahaso
+Reset	Rivendos
+Run two-sample t-test	Ekzekuto testin t me dy mostra
+Implement Version B	Zbato Versionin B
+~^You picked ([\d,]+)\. Now compare all three: one survey at each size, then 25 repeats\.$	Zgjodhe $1. Tani krahaso të tre: një anketë për secilën madhësi, pastaj 25 përsëritje.
+~^Survey 500 random students once\. Their average GPA is ([\d.]+)\. The true average is 3\.020\.$	Anketo një herë 500 studentë të rastësishëm. Nota e tyre mesatare është $1. Mesatarja e vërtetë është 3.020.
+~^Repeat the survey 25 times\. Each dot is one sample average\. They land between (.+)\.$	Përsërit anketën 25 herë. Çdo pikë është një mesatare mostre. Ato bien midis $1.
+~^Now survey 1,000 students\. Their average GPA is ([\d.]+)\.(.*)$	Tani anketo 1,000 studentë. Nota e tyre mesatare është $1.$2
+~^25 repeats at 1,000 students land between (.+)\. The spread is tighter\.$	25 përsëritje me 1,000 studentë bien midis $1. Shpërndarja është më e ngushtë.
+~^Now survey 2,000 students\. Their average GPA is ([\d.]+)\.(.*)$	Tani anketo 2,000 studentë. Nota e tyre mesatare është $1.$2
+~^25 repeats at 2,000 students land between (.+)\.$	25 përsëritje me 2,000 studentë bien midis $1.
+~^Predicted GPA ([\d.]+)$	Nota e parashikuar $1
+~^Question (\d+) of (\d+)$	Pyetja $1 nga $2
+~^(\d+) of (\d+) trials$	$1 nga $2 prova
+~^(\d+) trials?$	$1 prova
+~^(\d+) students$	$1 studentë
+If the p-value is 0.002, we should	Nëse vlera p është 0.002, duhet ta
+If the p-value is 0.20, we should	Nëse vlera p është 0.20, duhet ta
+the significance level. A logical consequence would be to suggest that your friends study	nivelin e rëndësisë. Një pasojë logjike do të ishte t'u sugjeroje miqve të studiojnë
+since we have evidence against the	meqë kemi dëshmi kundër hipotezës
+since we	meqë
+Surveying	Duke anketuar
+SAMPLE ·	MOSTRA ·
+margin of error	marzhi i gabimit
+If H₀ is true	Nëse H₀ është e vërtetë
+Statistical Inference	Inferenca statistikore
+Skip slide	Kalo slajdin
+Move up	Lëviz lart
+Move down	Lëviz poshtë
+Duplicate slide	Dyfisho slajdin
+Delete slide	Fshi slajdin
+Delete slide?	Të fshihet slajdi?
+This slide will be removed from the deck.	Ky slajd do të hiqet nga prezantimi.
+Cancel	Anulo
+Delete	Fshi
+~^(.+) margin of error$	$1 marzhi i gabimit
