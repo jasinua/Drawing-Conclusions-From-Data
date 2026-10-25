@@ -32,6 +32,12 @@
     return lead + sq + trail;
   }
 
+  // Short button labels (Skenari 1, Hapi tjetër) must not wrap; long ones (answer rows, tabs) must.
+  function fit(node) {
+    const b = node.parentElement && node.parentElement.closest('button');
+    if (b) b.classList.toggle('i18n-nowrap', lang === 'sq' && b.textContent.trim().length <= 18);
+  }
+
   function apply(node) {
     const rec = store.get(node);
     if (lang === 'sq') {
@@ -41,8 +47,9 @@
       const orig = cur, tr = translate(orig);
       store.set(node, { orig, tr });
       if (tr !== orig) node.data = tr;
+      fit(node);
     } else if (rec && node.data === rec.tr) {
-      node.data = rec.orig; store.delete(node);
+      node.data = rec.orig; store.delete(node); fit(node);
     }
   }
 
@@ -88,7 +95,7 @@
     #lang-btn span.on{background:#1199d6;color:#fff}
     #lang-btn:hover span:not(.on){color:#fff}
     #lang-btn.lang-idle{opacity:0;pointer-events:none}
-    html[lang=sq] button{white-space:nowrap}
+    .i18n-nowrap{white-space:nowrap}
     @media print{#lang-btn{display:none!important}}`;
   document.head.appendChild(style);
 

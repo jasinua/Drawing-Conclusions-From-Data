@@ -1,0 +1,41 @@
+The two phases of an A/B test	Dy fazat e një testi A/B
+PHASE 1 · DEFINITION	FAZA 1 · PËRKUFIZIM
+Testing phase	Faza e testimit
+A subset of participants is exposed to different treatments (A or B) in a controlled experiment, to measure and compare the outcome of each treatment.	Një nëngrup pjesëmarrësish ekspozohet ndaj trajtimeve të ndryshme (A ose B) në një eksperiment të kontrolluar, për të matur dhe krahasuar rezultatin e secilit trajtim.
+PHASE 2 · DEFINITION	FAZA 2 · PËRKUFIZIM
+Implementation phase	Faza e zbatimit
+The next stage: the more successful treatment is applied to a broader audience or the whole target population, based on the experimental results.	Faza pasuese: trajtimi më i suksesshëm zbatohet te një audiencë më e gjerë ose te e gjithë popullata e synuar, bazuar në rezultatet e eksperimentit.
+How randomization works	Si funksionon rastësia në caktim
+Decide how many take part	Vendos sa marrin pjesë
+Of 50,000 expected visitors, test on 5,000 (10%). Testing on everyone risks losing more donations than needed if B performs poorly.	Nga 50,000 vizitorë të pritshëm, testo te 5,000 (10%). Testimi te të gjithë rrezikon humbjen e më shumë dhuratave se sa duhet nëse B performon dobët.
+Select at random	Zgjidh rastësisht
+The software picks participants without knowing anything about them. Every visitor has the same chance, like flipping a coin for each next visitor.	Softueri zgjedh pjesëmarrësit pa ditur asgjë për ta. Çdo vizitor ka të njëjtin shans, si të hidhje monedhën për çdo vizitorin e radhës.
+Split at random	Ndaje rastësisht
+Half (2,500) see only A, half see only B. Nobody in A knows B exists, and the other 45,000 see the current version.	Gjysma (2,500) shohin vetëm A, gjysma vetëm B. Askush në A nuk e di që B ekziston, dhe 45,000-ët e tjerë shohin versionin aktual.
+QUICK TIP	KËSHILLË E SHPEJTË
+Compare equal-sized groups: 5% of visitors seeing A against 5% seeing B. Then B is judged against a randomly selected group the same size as A, which keeps the comparison fair.	Krahaso grupe me madhësi të barabartë: 5% e vizitorëve që shohin A kundrejt 5% që shohin B. Kështu B vlerësohet kundrejt një grupi të zgjedhur rastësisht me të njëjtën madhësi si A, çka e mban krahasimin të drejtë.
+Before implementing, ask	Para zbatimit, pyet
+QUESTION 1	PYETJA 1
+Was it the timing?	A ishte koha?
+Did anything about the period make the difference, like an election or a national crisis? Can we expect the same pattern in future?	A bëri ndonjë gjë e periudhës ndryshimin, si një zgjedhje ose një krizë kombëtare? A mund të presim të njëjtin model në të ardhmen?
+QUESTION 2	PYETJA 2
+Is the difference significant?	A është ndryshimi i rëndësishëm?
+B looks better. Is the gap statistically significant, or could chance alone produce it?	B duket më e mirë. A është diferenca statistikisht e rëndësishme, apo mund ta prodhojë vetë rastësia?
+QUESTION 3	PYETJA 3
+Does it last?	A zgjat?
+Keep observing the new version for several months to make sure the pattern endures over time.	Vazhdo ta vëzhgosh versionin e ri për disa muaj për t'u siguruar që modeli qëndron me kohën.
+QUESTION 4	PYETJA 4
+Do testers represent future visitors?	A i përfaqësojnë testuesit vizitorët e ardhshëm?
+Differences in demographics, season or the economy between the phases can mislead. Minimize them, or rerun the test when conditions change.	Dallimet në demografi, stinë ose ekonomi midis fazave mund të mashtrojnë. Minimizoji, ose ritesto kur ndryshojnë kushtet.
+The two-sample t-test	Testi t me dy mostra
+Two-sample t-test	Testi t me dy mostra
+For A/B testing, a statistical method to determine whether a significant difference exists between the means of treatments A and B.	Për testimin A/B, një metodë statistikore për të përcaktuar nëse ekziston një ndryshim i rëndësishëm midis mesatareve të trajtimeve A dhe B.
+Average donation is the same for A and B (the difference is zero)	Dhurata mesatare është e njëjtë për A dhe B (ndryshimi është zero)
+Average donation is greater for B than for A	Dhurata mesatare është më e madhe për B se për A
+(x̄₁ − x̄₂) − hypothesized difference	(x̄₁ − x̄₂) − ndryshimi i hipotezuar
+Top: the distance of our observed difference from the hypothesized one. Bottom: the variability to account for. If H₀ is true, t is close to 0.	Lart: largësia e ndryshimit tonë të vëzhguar nga ai i hipotezuar. Poshtë: ndryshueshmëria që duhet marrë parasysh. Nëse H₀ është e vërtetë, t është afër 0.
+Software computes the p-value, we interpret it. Also weigh practical significance: a 1% gain can still mean hundreds of dollars a year. A very small p-value gives confidence to act, even on a small effect.	Softueri llogarit vlerën p, ne e interpretojmë. Peshoje edhe rëndësinë praktike: një rritje 1% mund të nënkuptojë prapëseprapë qindra dollarë në vit. Një vlerë p shumë e vogël jep besim për të vepruar, edhe për një efekt të vogël.
+Test on a few visitors first. Then roll out the winner.	Testo së pari te pak vizitorë. Pastaj zbato fituesin.
+Random picks, then a random split into A and B.	Zgjedhje të rastësishme, pastaj ndarje e rastësishme në A dhe B.
+Before you roll out: was it timing?	Para zbatimit: a ishte koha?
+Two groups, so a two-sample t-test.	Dy grupe, pra një test t me dy mostra.
