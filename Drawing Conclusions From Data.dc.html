@@ -19,6 +19,7 @@
 <script src="./fullscreen.js" defer></script>
 <script src="./i18n-sq.js"></script>
 <script src="./steps.js" defer></script>
+<script src="./coinflip.js" defer></script>
 <script src="./i18n.js" defer></script>
 <style>
 body{margin:0;background:#000;font-family:Lato,'Helvetica Neue',Arial,sans-serif}
@@ -1041,7 +1042,7 @@ input[type=range]{accent-color:#1199d6}
       <div class="a-up" style="display:flex;gap:20px;animation-delay:0.7s"><span style="flex:none;width:44px;font-size:34px;font-weight:900;color:#58b7e2">e</span><span style="font-size:32px;line-height:1.3">Evidence for or against a fair coin?</span></div>
       <div class="a-up" style="display:flex;gap:20px;animation-delay:.8s"><span style="flex:none;width:44px;font-size:34px;font-weight:900;color:#fdb022">+</span><span style="font-size:32px;line-height:1.3;color:#fdb022">Describe the result with the STAR framework.</span></div>
     </div>
-    <div class="a-up" style="background:#181d27;border:1px solid #252b37;border-radius:8px;padding:16px 20px;animation-delay:.4s"><div style="font-size:24px;font-weight:700;letter-spacing:.16em;color:#58b7e2;margin-bottom:6px">HEADS IN 100 TRIALS OF 100 FAIR FLIPS</div>{{ coinFig }}</div>
+    <div style="display:flex;flex-direction:column;gap:16px"><div class="a-up" style="position:relative;background:#181d27;border:1px solid #252b37;border-radius:8px;padding:16px 20px;animation-delay:.4s"><div style="font-size:24px;font-weight:700;letter-spacing:.16em;color:#58b7e2;margin-bottom:6px">HEADS IN 100 TRIALS OF 100 FAIR FLIPS</div>{{ coinFig }}<div data-coinflip></div></div></div>
   </div>
 </section>
 
