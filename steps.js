@@ -43,10 +43,41 @@
       back.disabled = step <= 1;
       next.textContent = step >= n ? 'Replay' : 'Next step';
     }
+    sec.__steps = {
+      next() { if (step >= n) return false; step++; render(); return true; },
+      prev() { if (step <= 1) return false; step--; render(); return true; },
+    };
+    // Entering a stepped slide starts at step 1 (or at the last step when arriving with the left arrow).
+    if (!new URLSearchParams(location.search).get('step')) {
+      new MutationObserver(() => {
+        if (sec.hasAttribute('data-deck-active')) { step = lastDir === 'back' ? n : 1; lastDir = 'fwd'; render(); }
+      }).observe(sec, { attributes: true, attributeFilter: ['data-deck-active'] });
+    }
     back.addEventListener('click', e => { e.stopPropagation(); step = Math.max(1, step - 1); render(); back.blur(); });
     next.addEventListener('click', e => { e.stopPropagation(); step = step >= n ? 1 : step + 1; render(); next.blur(); });
     render();
   }
+
+  // → / ← move through the steps of the current slide first, and only change slide once the steps run out.
+  // Slides driven by a "Next step" button (marked data-next / data-prev in the deck) are stepped the same way.
+  let lastDir = 'fwd';
+  window.addEventListener('keydown', e => {
+    if (e.metaKey || e.ctrlKey || e.altKey || e.shiftKey) return;
+    if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+    const el = e.target;
+    if (el && (/^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName) || el.isContentEditable)) return;
+    const fwd = e.key === 'ArrowRight';
+    lastDir = fwd ? 'fwd' : 'back';
+    const sec = document.querySelector('section[data-deck-active]');
+    if (!sec) return;
+    let done = false;
+    if (sec.__steps) done = fwd ? sec.__steps.next() : sec.__steps.prev();
+    else {
+      const b = sec.querySelector(fwd ? '[data-next]' : '[data-prev]');
+      if (b && b.dataset[fwd ? 'last' : 'first'] !== 'y' && !b.disabled) { b.click(); done = true; }
+    }
+    if (done) { e.preventDefault(); e.stopImmediatePropagation(); lastDir = 'fwd'; }
+  }, true);
 
   function scan() { document.querySelectorAll('section[data-steps]:not([data-steps-init])').forEach(init); }
   new MutationObserver(scan).observe(document.documentElement, { childList: true, subtree: true });
