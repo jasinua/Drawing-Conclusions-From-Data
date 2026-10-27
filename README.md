@@ -8,7 +8,7 @@ A static HTML slide deck, plus a "Try It Yourself" activity page. No build step 
 python3 -m http.server 8000
 ```
 
-Then open <http://localhost:8000> (redirects to the deck). Activity page: <http://localhost:8000/try-it-yourself.html>.
+Then open <http://localhost:8000> (redirects to the deck). Activity page: <http://localhost:8000/try-it-yourself.html>. Speaker notes for every slide: <http://localhost:8000/notes.html>.
 
 Serve over HTTP rather than opening the files directly, so the data files load.
 

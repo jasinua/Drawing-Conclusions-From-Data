@@ -39,3 +39,14 @@ Test on a few visitors first. Then roll out the winner.	Testo së pari te pak vi
 Random picks, then a random split into A and B.	Zgjedhje të rastësishme, pastaj ndarje e rastësishme në A dhe B.
 Before you roll out: was it timing?	Para zbatimit: a ishte koha?
 Two groups, so a two-sample t-test.	Dy grupe, pra një test t me dy mostra.
+margin of error = 1.96 × σ / √n	marzhi i gabimit = 1.96 × σ / √n
+σ ≈ 0.5 · n = students	σ ≈ 0.5 · n = numri i studentëve
+HOW WE GOT r	SI E GJETËM r
+x = sleep hours (mean 6.32), y = GPA (mean 2.96), over all 400 students	x = orët e gjumit (mesatarja 6.32), y = GPA (mesatarja 2.96), për të 400 studentët
+How sleep and GPA move together ÷ how much each varies	Si lëvizin bashkë gjumi dhe GPA ÷ sa ndryshon secili
+Is 3.971 far enough from 3.0 that it is not just luck?	A është 3.971 mjaft larg 3.0 sa të mos jetë thjesht fat?
+THE QUESTION	PYETJA
+Is the average GPA at their school above the national average of 3.0?	A është GPA mesatare në shkollën e tyre mbi mesataren kombëtare prej 3.0?
+Hazel and Everett survey 58 students at their school and get a sample mean of	Hazel dhe Everett anketojnë 58 studentë në shkollën e tyre dhe marrin një mesatare mostre
+. Is that just luck, or a real difference?	. A është thjesht fat, apo dallim i vërtetë?
+, which asks: is 3.971 far enough from 3.0 that it is not just luck?	, që pyet: a është 3.971 mjaft larg 3.0 sa të mos jetë thjesht fat?

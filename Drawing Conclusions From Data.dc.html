@@ -216,6 +216,10 @@ input[type=range]{accent-color:#1199d6}
       <span style="font-size:64px;font-weight:900;color:#fff;font-variant-numeric:tabular-nums">x̄ = {{ jar.mean }}</span>
       <span style="font-size:32px;font-weight:700;color:#58b7e2;font-variant-numeric:tabular-nums">{{ jar.moe }} margin of error</span>
     </div>
+    <div class="a-up" style="position:absolute;left:900px;top:132px;display:flex;gap:24px;align-items:baseline;font-size:28px;color:#a4a7ae;animation-delay:5.9s">
+      <span style="font-weight:700;color:#fff">margin of error = 1.96 × σ / √n</span>
+      <span>σ ≈ 0.5 · n = students</span>
+    </div>
     <div style="position:absolute;left:900px;top:680px;width:780px;border-top:2px solid #414651"></div>
     <div style="position:absolute;left:900px;top:692px;width:780px;height:36px;font-size:24px;color:#a4a7ae">
       <span style="position:absolute;left:20%;transform:translateX(-50%)">2.0</span>
@@ -400,10 +404,15 @@ input[type=range]{accent-color:#1199d6}
   <h2 class="a-up" style="margin:24px 0 0;font-size:76px;font-weight:900;line-height:1.05;letter-spacing:-.02em">Correlation is not causation</h2>
   <div style="flex:1;display:grid;grid-template-columns:900px minmax(0,1fr);gap:96px;margin-top:40px;align-items:start">
     <div>{{ scatter }}</div>
-    <div style="display:flex;flex-direction:column;gap:28px">
+    <div style="display:flex;flex-direction:column;gap:18px">
       <div class="a-up" style="font-size:120px;font-weight:900;line-height:1;color:#58b7e2;font-variant-numeric:tabular-nums;animation-delay:2.4s">r = {{ rLabel }}</div>
       <div class="a-up" style="font-size:44px;font-weight:700;animation-delay:2.7s">There is a positive correlation.</div>
-      <div class="a-fade" style="font-size:36px;color:#a4a7ae;margin-top:28px;animation-delay:3.2s">Does this prove sleep causes higher GPA?</div>
+      <div class="a-fade" style="background:#181d27;border:1px solid #414651;border-radius:8px;padding:12px 20px;display:flex;flex-direction:column;gap:4px;animation-delay:2.9s">
+        <span style="font-size:20px;font-weight:700;letter-spacing:.16em;color:#58b7e2">HOW WE GOT r</span>
+        <span style="font-size:26px">r = Σ(x − x̄)(y − ȳ) / √( Σ(x − x̄)² · Σ(y − ȳ)² )</span>
+        <span style="font-size:22px;color:#717680">How sleep and GPA move together ÷ how much each varies</span>
+      </div>
+      <div class="a-fade" style="font-size:36px;color:#a4a7ae;margin-top:8px;animation-delay:3.2s">Does this prove sleep causes higher GPA?</div>
       <div class="a-fade" style="display:flex;gap:20px;animation-delay:3.4s">
         <button onClick="{{ p8yes }}" style="width:200px;padding:22px 0;border-radius:4px;border:2px solid {{ c8.yes.bd }};background:{{ c8.yes.bg }};color:#fff;font-size:32px;font-weight:900;letter-spacing:.1em;cursor:pointer;transition:all .2s">YES</button>
         <button onClick="{{ p8no }}" style="width:200px;padding:22px 0;border-radius:4px;border:2px solid {{ c8.no.bd }};background:{{ c8.no.bg }};color:#fff;font-size:32px;font-weight:900;letter-spacing:.1em;cursor:pointer;transition:all .2s">NO</button>
@@ -441,21 +450,26 @@ input[type=range]{accent-color:#1199d6}
   <div class="a-fade" style="margin-top:36px;font-size:30px;color:#a4a7ae;animation-delay:2s">A large p-value does not prove H₀. It means the data are not surprising enough to reject it.</div>
 </section>
 
-<section data-steps="5" data-label="14 Inference for a mean" data-screen-label="14 Inference for a mean" data-speaker-notes="Hazel and Everett's second question: is the average GPA at their school above the national average of 3.0? Null: mean is 3.0. Alternative: mean is above 3.0. Their sample mean is 3.971. Because this is a mean, not a proportion, the simulation approach from the coin does not work. The robust alternative is the t-test. Read the two definitions." style="background:#0a0d12;color:#fff;font-family:Lato,'Helvetica Neue',Arial,sans-serif;padding:80px 120px;box-sizing:border-box;display:flex;flex-direction:column;overflow:hidden">
+<section data-steps="5" data-label="14 Inference for a mean" data-screen-label="14 Inference for a mean" data-speaker-notes="Hazel and Everett's second question: is the average GPA at their school above the national average of 3.0? Null: the mean is exactly 3.0, nothing special. Alternative: the mean is above 3.0. Their sample mean is 3.971, well above 3.0, but a sample is never exact, so the real question is: is 3.971 far enough from 3.0 that it is not just luck? We can't use the coin simulation: Heads or Tails is a yes/no outcome we can imitate by flipping, an average is not. The t-test answers the question. One-sample t-test: one group's average against a fixed number (our case, 3.0). Two-sample t-test: the averages of two groups. The t statistic is the number the test computes: how far our data sits from what the null predicts. Near 0 means nothing unusual, far from 0 means surprising. The next slides show how to read it." style="background:#0a0d12;color:#fff;font-family:Lato,'Helvetica Neue',Arial,sans-serif;padding:80px 120px;box-sizing:border-box;display:flex;flex-direction:column;overflow:hidden">
   <div style="display:flex;gap:20px;align-items:baseline;font-size:24px;font-weight:700;letter-spacing:.16em"><span style="color:#58b7e2">14</span><span style="color:#a4a7ae">STATISTICAL INFERENCE</span></div>
   <h2 class="a-up" style="margin:24px 0 0;font-size:76px;font-weight:900;line-height:1.05;letter-spacing:-.02em">Inference for a mean</h2>
-  <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:40px">
-    <div data-step="1" style="background:#181d27;border:1px solid #252b37;border-radius:8px;padding:28px 36px;animation-delay:.2s"><div style="font-size:22px;font-weight:700;letter-spacing:.16em;color:#a4a7ae">NULL HYPOTHESIS · H₀</div><div style="font-size:30px;line-height:1.35;margin-top:12px">The mean GPA at their school is 3.0 (μ = 3.0)</div></div>
-    <div data-step="2" style="background:#181d27;border:2px solid #1199d6;border-radius:8px;padding:28px 36px;animation-delay:.4s"><div style="font-size:22px;font-weight:700;letter-spacing:.16em;color:#58b7e2">ALTERNATIVE HYPOTHESIS · Hₐ</div><div style="font-size:30px;line-height:1.35;margin-top:12px">The mean GPA at their school is over 3.0 (μ &gt; 3.0)</div></div>
+  <div class="a-up" style="margin-top:28px;border-left:4px solid #fdb022;padding:4px 0 4px 28px;animation-delay:.1s">
+    <div style="font-size:22px;font-weight:700;letter-spacing:.16em;color:#fdb022">THE QUESTION</div>
+    <div style="margin-top:8px;font-size:34px;font-weight:900;line-height:1.25">Is the average GPA at their school above the national average of 3.0?</div>
+    <div style="margin-top:8px;font-size:26px;line-height:1.35;color:#a4a7ae">Hazel and Everett survey 58 students at their school and get a sample mean of <b style="color:#fff">3.971</b>. Is that just luck, or a real difference?</div>
   </div>
-  <div data-step="3" style="font-size:28px;line-height:1.4;color:#d5d7da;margin-top:28px;animation-delay:.8s">The sample mean is 3.971. A mean is not a proportion, so the simulation approach from Michael's coin will not work. A robust alternative is the <b style="color:#58b7e2">t-test</b>.</div>
-  <div style="flex:1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:28px;align-items:stretch">
-    <div data-step="4" style="background:#181d27;border:1px solid #252b37;border-radius:8px;padding:40px 44px;display:flex;flex-direction:column;gap:20px;animation-delay:1.2s">
+  <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:28px">
+    <div data-step="1" style="background:#181d27;border:1px solid #252b37;border-radius:8px;padding:20px 36px;animation-delay:.2s"><div style="font-size:22px;font-weight:700;letter-spacing:.16em;color:#a4a7ae">NULL HYPOTHESIS · H₀</div><div style="font-size:30px;line-height:1.35;margin-top:12px">The mean GPA at their school is 3.0 (μ = 3.0)</div></div>
+    <div data-step="2" style="background:#181d27;border:2px solid #1199d6;border-radius:8px;padding:20px 36px;animation-delay:.4s"><div style="font-size:22px;font-weight:700;letter-spacing:.16em;color:#58b7e2">ALTERNATIVE HYPOTHESIS · Hₐ</div><div style="font-size:30px;line-height:1.35;margin-top:12px">The mean GPA at their school is over 3.0 (μ &gt; 3.0)</div></div>
+  </div>
+  <div data-step="3" style="font-size:28px;line-height:1.4;color:#d5d7da;margin-top:20px;animation-delay:.8s">A mean is not a proportion (like the share of Heads), so simulating coin flips will not work. A robust alternative is the <b style="color:#58b7e2">t-test</b>, which asks: is 3.971 far enough from 3.0 that it is not just luck?</div>
+  <div style="flex:1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:16px;margin-bottom:24px;align-items:stretch">
+    <div data-step="4" style="background:#181d27;border:1px solid #252b37;border-radius:8px;padding:26px 44px;display:flex;flex-direction:column;gap:20px;animation-delay:1.2s">
       <div style="font-size:24px;font-weight:700;letter-spacing:.16em;color:#a4a7ae">DEFINITION</div>
       <div style="font-size:44px;font-weight:900;line-height:1.1;color:#58b7e2">t-test</div>
       <div style="font-size:26px;line-height:1.4;color:#d5d7da">A statistical method that, among other things, can determine if a significant difference exists between the mean of a group and a specified value (one-sample t-test) or between the means of two groups (two-sample t-test).</div>
     </div>
-    <div data-step="5" style="background:#181d27;border:2px solid #1199d6;border-radius:8px;padding:40px 44px;display:flex;flex-direction:column;gap:20px;animation-delay:1.6s">
+    <div data-step="5" style="background:#181d27;border:2px solid #1199d6;border-radius:8px;padding:26px 44px;display:flex;flex-direction:column;gap:20px;animation-delay:1.6s">
       <div style="font-size:24px;font-weight:700;letter-spacing:.16em;color:#58b7e2">DEFINITION</div>
       <div style="font-size:44px;font-weight:900;line-height:1.1;color:#58b7e2">t-test statistic</div>
       <div style="font-size:26px;line-height:1.4;color:#d5d7da">A value calculated from the data that characterizes the extremeness of the results relative to the null hypothesis: do the observed data deviate significantly from what we would expect under that hypothesis?</div>

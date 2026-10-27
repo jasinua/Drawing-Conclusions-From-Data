@@ -145,7 +145,7 @@ window.I18N_SQ = {
 "The mean GPA at their school is 3.0 (μ = 3.0)": "Nota mesatare në shkollën e tyre është 3.0 (μ = 3.0)",
 "ALTERNATIVE HYPOTHESIS · Hₐ": "HIPOTEZA ALTERNATIVE · Hₐ",
 "The mean GPA at their school is over 3.0 (μ > 3.0)": "Nota mesatare në shkollën e tyre është mbi 3.0 (μ > 3.0)",
-"The sample mean is 3.971. A mean is not a proportion, so the simulation approach from Michael's coin will not work. A robust alternative is the": "Mesatarja e mostrës është 3.971. Mesatarja nuk është proporcion, ndaj qasja me simulim nga monedha e Mikaelit nuk funksionon. Një alternativë e fuqishme është",
+"A mean is not a proportion (like the share of Heads), so simulating coin flips will not work. A robust alternative is the": "Mesatarja nuk është proporcion (si pjesa e Kokave), ndaj simulimi i hedhjeve të monedhës nuk funksionon. Një alternativë e fuqishme është",
 "t-test": "testi t",
 "A statistical method that, among other things, can determine if a significant difference exists between the mean of a group and a specified value (one-sample t-test) or between the means of two groups (two-sample t-test).": "Një metodë statistikore që, ndër të tjera, mund të përcaktojë nëse ekziston një ndryshim i rëndësishëm midis mesatares së një grupi dhe një vlere të caktuar (testi t me një mostër) ose midis mesatareve të dy grupeve (testi t me dy mostra).",
 "t-test statistic": "Statistika e testit t",
@@ -589,7 +589,18 @@ window.I18N_SQ = {
 "Test on a few visitors first. Then roll out the winner.": "Testo së pari te pak vizitorë. Pastaj zbato fituesin.",
 "Random picks, then a random split into A and B.": "Zgjedhje të rastësishme, pastaj ndarje e rastësishme në A dhe B.",
 "Before you roll out: was it timing?": "Para zbatimit: a ishte koha?",
-"Two groups, so a two-sample t-test.": "Dy grupe, pra një test t me dy mostra."
+"Two groups, so a two-sample t-test.": "Dy grupe, pra një test t me dy mostra.",
+"margin of error = 1.96 × σ / √n": "marzhi i gabimit = 1.96 × σ / √n",
+"σ ≈ 0.5 · n = students": "σ ≈ 0.5 · n = numri i studentëve",
+"HOW WE GOT r": "SI E GJETËM r",
+"x = sleep hours (mean 6.32), y = GPA (mean 2.96), over all 400 students": "x = orët e gjumit (mesatarja 6.32), y = GPA (mesatarja 2.96), për të 400 studentët",
+"How sleep and GPA move together ÷ how much each varies": "Si lëvizin bashkë gjumi dhe GPA ÷ sa ndryshon secili",
+"Is 3.971 far enough from 3.0 that it is not just luck?": "A është 3.971 mjaft larg 3.0 sa të mos jetë thjesht fat?",
+"THE QUESTION": "PYETJA",
+"Is the average GPA at their school above the national average of 3.0?": "A është GPA mesatare në shkollën e tyre mbi mesataren kombëtare prej 3.0?",
+"Hazel and Everett survey 58 students at their school and get a sample mean of": "Hazel dhe Everett anketojnë 58 studentë në shkollën e tyre dhe marrin një mesatare mostre",
+". Is that just luck, or a real difference?": ". A është thjesht fat, apo dallim i vërtetë?",
+", which asks: is 3.971 far enough from 3.0 that it is not just luck?": ", që pyet: a është 3.971 mjaft larg 3.0 sa të mos jetë thjesht fat?"
 },
 "rules": [
 [

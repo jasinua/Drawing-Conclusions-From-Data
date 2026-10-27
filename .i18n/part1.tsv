@@ -146,7 +146,7 @@ NULL HYPOTHESIS · H₀	HIPOTEZA ZERO · H₀
 The mean GPA at their school is 3.0 (μ = 3.0)	Nota mesatare në shkollën e tyre është 3.0 (μ = 3.0)
 ALTERNATIVE HYPOTHESIS · Hₐ	HIPOTEZA ALTERNATIVE · Hₐ
 The mean GPA at their school is over 3.0 (μ > 3.0)	Nota mesatare në shkollën e tyre është mbi 3.0 (μ > 3.0)
-The sample mean is 3.971. A mean is not a proportion, so the simulation approach from Michael's coin will not work. A robust alternative is the	Mesatarja e mostrës është 3.971. Mesatarja nuk është proporcion, ndaj qasja me simulim nga monedha e Mikaelit nuk funksionon. Një alternativë e fuqishme është
+A mean is not a proportion (like the share of Heads), so simulating coin flips will not work. A robust alternative is the	Mesatarja nuk është proporcion (si pjesa e Kokave), ndaj simulimi i hedhjeve të monedhës nuk funksionon. Një alternativë e fuqishme është
 t-test	testi t
 A statistical method that, among other things, can determine if a significant difference exists between the mean of a group and a specified value (one-sample t-test) or between the means of two groups (two-sample t-test).	Një metodë statistikore që, ndër të tjera, mund të përcaktojë nëse ekziston një ndryshim i rëndësishëm midis mesatares së një grupi dhe një vlere të caktuar (testi t me një mostër) ose midis mesatareve të dy grupeve (testi t me dy mostra).
 t-test statistic	Statistika e testit t

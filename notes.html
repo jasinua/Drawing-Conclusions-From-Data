@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Speaker Notes · Drawing Conclusions From Data</title>
+<style>
+:root{--bg:#0a0d12;--panel:#181d27;--line:#252b37;--line2:#414651;--text:#fff;--muted:#a4a7ae;--accent:#58b7e2}
+*{box-sizing:border-box}
+html{scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Lato,'Helvetica Neue',Arial,sans-serif;font-size:19px;line-height:1.6}
+a{color:var(--accent)}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px}
+header{padding:48px 0 20px}
+.eyebrow{font-size:14px;font-weight:700;letter-spacing:.24em;color:#70c1e6}
+h1{margin:8px 0 0;font-size:clamp(36px,7vw,64px);line-height:1.05;font-weight:900;letter-spacing:-.03em}
+.lede{margin:14px 0 0;color:var(--muted)}
+.bar{position:sticky;top:0;z-index:5;background:rgba(10,13,18,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:12px 0}
+.bar .wrap{display:flex;gap:12px;align-items:center}
+input{flex:1;padding:10px 14px;border:1px solid var(--line2);border-radius:4px;background:var(--panel);color:#fff;font:16px Lato,sans-serif}
+input:focus{outline:none;border-color:var(--accent)}
+.count{color:var(--muted);font-size:15px;white-space:nowrap}
+article{margin:20px 0;padding:22px 26px;background:var(--panel);border:1px solid var(--line);border-radius:8px;break-inside:avoid}
+article h2{margin:0;display:flex;gap:14px;align-items:baseline;font-size:22px;font-weight:900}
+article h2 .n{color:var(--accent);font-size:16px;letter-spacing:.12em}
+article h2 a{margin-left:auto;font-size:14px;font-weight:700;text-decoration:none;white-space:nowrap}
+article h2 a:hover{text-decoration:underline}
+article p{margin:12px 0 0;color:#d5d7da}
+.empty{color:var(--muted)}
+mark{background:#1199d6;color:#fff;border-radius:2px}
+@media print{body{background:#fff;color:#000}article{background:#fff;border-color:#bbb}article p{color:#000}.bar,header .lede a{display:none}a{color:#000}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="eyebrow">DRAWING CONCLUSIONS FROM DATA</div>
+  <h1>Speaker notes</h1>
+  <p class="lede">What to say on each slide. Read straight from the deck, so it is always up to date. <a href="Drawing%20Conclusions%20From%20Data.dc.html">Open the deck</a></p>
+</div></header>
+<div class="bar"><div class="wrap"><input id="q" type="search" placeholder="Search the notes…" aria-label="Search the notes"><span class="count" id="count"></span></div></div>
+<main class="wrap" id="list"><p class="empty">Loading…</p></main>
+<script>
+(function () {
+  var DECK = 'Drawing%20Conclusions%20From%20Data.dc.html';
+  var list = document.getElementById('list'), q = document.getElementById('q'), count = document.getElementById('count'), items = [];
+  function esc(s) { return s.replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function render() {
+    var term = q.value.trim().toLowerCase(), shown = 0, re = term && new RegExp('(' + term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig');
+    list.innerHTML = items.map(function (it) {
+      if (term && (it.title + ' ' + it.notes).toLowerCase().indexOf(term) < 0) return '';
+      shown++;
+      var hl = function (t) { t = esc(t); return re ? t.replace(re, '<mark>$1</mark>') : t; };
+      return '<article id="s' + it.n + '"><h2><span class="n">' + String(it.n).padStart(2, '0') + '</span>' + hl(it.title) +
+        '<a href="' + DECK + '#' + it.n + '">Open slide →</a></h2>' +
+        (it.notes ? '<p>' + hl(it.notes) + '</p>' : '<p class="empty">No notes for this slide.</p>') + '</article>';
+    }).join('') || '<p class="empty">No slides match.</p>';
+    count.textContent = shown + ' of ' + items.length;
+  }
+  fetch(DECK).then(function (r) { if (!r.ok) throw 0; return r.text(); }).then(function (t) {
+    var doc = new DOMParser().parseFromString(t, 'text/html');
+    items = Array.prototype.map.call(doc.querySelectorAll('section[data-label]'), function (s, i) {
+      return { n: i + 1, title: s.getAttribute('data-label').replace(/^\d+\s*/, ''), notes: s.getAttribute('data-speaker-notes') || '' };
+    });
+    render();
+    if (location.hash) { var el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
+  }).catch(function () {
+    list.innerHTML = '<p class="empty">Could not load the deck. Serve the folder over HTTP (python3 -m http.server 8000) and open this page again.</p>';
+  });
+  q.addEventListener('input', render);
+})();
+</script>
+</body>
+</html>
