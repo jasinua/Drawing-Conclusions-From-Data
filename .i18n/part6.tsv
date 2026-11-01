@@ -1,0 +1,97 @@
+Is the school telling the truth?	A po thotë të vërtetën shkolla?
+PROLOGUE	PROLOGU
+THE ADMINISTRATORS, IN THE LOCAL PAPER	ADMINISTRATORËT, NË GAZETËN VENDORE
+“Our students’ high academic achievement is linked to… well-balanced lifestyles and incredible personal health.”	“Suksesi i lartë akademik i nxënësve tanë lidhet me… stile jetese të ekuilibruara dhe shëndet të shkëlqyer personal.”
+“Then why is everyone we know exhausted?”	“Atëherë pse është i lodhur gjithkush që njohim?”
+Hazel and Everett will check it with data.	Hazel dhe Everett do ta kontrollojnë me të dhëna.
+PLAN	PLANI
+DATA	TË DHËNAT
+EVIDENCE	PROVAT
+VERDICT	VERDIKTI
+Three hunches. One sample.	Tri hamendje. Një mostër.
+ACT 1 · THE PLAN	AKTI 1 · PLANI
+SLEEP	GJUMI
+GRADES	NOTAT
+LINK	LIDHJA
+Fewer than half sleep 8+ hours	Më pak se gjysma flenë 8+ orë
+The average GPA is above 3.0	Nota mesatare është mbi 3.0
+More sleep goes with higher GPA	Më shumë gjumë shkon me notë më të lartë
+national: 50%	kombëtarja: 50%
+national: 3.0	kombëtarja: 3.0
+we will see	do ta shohim
+THE SCHOOL · 384 STUDENTS	SHKOLLA · 384 STUDENTË
+Survey 58 students	Anketo 58 studentë
+● sleeps 8+ h	● fle 8+ orë
+● sleeps less	● fle më pak
+● not asked	● nuk është pyetur
+of the sample sleep 8+ h	e mostrës flenë 8+ orë
+Nobody can ask all 384.	Askush nuk mund t'i pyesë të gjithë 384.
+Every sample tells a slightly different story.	Çdo mostër tregon një histori paksa ndryshe.
+So, was the school right?	Pra, e kishte të drejtë shkolla?
+ACT 4 · CRACKING THE CASE	AKTI 4 · ZGJIDHJA E RASTIT
+Grades are high	Notat janë të larta
+Sleep goes with GPA	Gjumi shkon me notën mesatare
+Most students sleep well	Shumica e studentëve flenë mirë
+mean GPA vs 3.0 · p ≈ 0	nota mesatare kundrejt 3.0 · p ≈ 0
+a positive link · p ≈ 0	lidhje pozitive · p ≈ 0
+19 of 58 sleep 8+ h · p ≈ 0.005	19 nga 58 flenë 8+ orë · p ≈ 0.005
+Half right.	Gjysmë e saktë.
+An association, not a cause.	Një lidhje, jo një shkak.
+ACT 2 · GATHERING EVIDENCE	AKTI 2 · MBLEDHJA E PROVAVE
+ACT 3 · THE SUSPICIOUS COIN	AKTI 3 · MONEDHA E DYSHIMTË
+ACT 5 · WHEN EVIDENCE LIES	AKTI 5 · KUR PROVAT MASHTROJNË
+ACT 6 · THE EXPERIMENT	AKTI 6 · EKSPERIMENTI
+EPILOGUE · ETHICS	EPILOGU · ETIKA
+Reading the p-value	Leximi i vlerës p
+Half right! Grades yes, sleep not so much.	Gjysmë e saktë! Notat po, gjumi jo aq shumë.
+Can a law be tested like a drug?	A mund të testohet një ligj si një ilaç?
+OBSERVE	VEZHGO
+RANDOMIZE	RASTËSO
+States with the law vs states without	Shtete me ligjin kundrejt shteteve pa të
+income	të ardhurat
+culture	kultura
+policing	policia
+Correlation, not cause.	Korrelacion, jo shkak.
+1,000+ communities get the law in random order	Mbi 1,000 komunitete e marrin ligjin në rend të rastësishëm
+● earlier	● më herët
+● later	● më vonë
+Random order → cause.	Rend i rastësishëm → shkak.
+California’s APPS · Dr. Garen Wintemute, UC Davis	APPS e Kalifornisë · Dr. Garen Wintemute, UC Davis
+Random order is how a law becomes an experiment.	Rendi i rastësishëm e kthen një ligj në eksperiment.
+The confusion matrix	Matrica e konfuzionit
+PRECISION	SAKTËSIA
+RECALL	RIKTHIMI
+True positive	Pozitiv i vërtetë
+effect found	efekti u gjet
+True negative	Negativ i vërtetë
+nothing missed	asgjë e humbur
+When we reject H₀…	Kur refuzojmë H₀…
+How often is the effect real?	Sa shpesh është real efekti?
+Of all real effects…	Nga të gjithë efektet reale…
+How many do we catch? (also called sensitivity)	Sa prej tyre i kapim? (quhet edhe ndjeshmëri)
+Does ice cream cause drowning?	Shkakton akulloré mbytje?
+r = 0.50	r = 0.50
+They rise together. Ban ice cream?	Rriten bashkë. Ta ndalojmë akulloren?
+● cold day	● ditë e ftohtë
+● hot day	● ditë e nxehtë
+Hot days bring both: more ice cream and more swimming.	Ditët e nxehta sjellin të dyja: më shumë akullore dhe më shumë not.
+Temperature	Temperatura
+Ice cream	Akullorja
+Drownings	Mbytjet
+Ice cream sales	Shitjet e akullores
+no cause	pa shkak
+Ice cream and drownings: who is the hidden cause?	Akullorja dhe mbytjet: kush është shkaku i fshehur?
+How do we test whether a law works?	Si e testojmë nëse një ligj funksionon?
+1 · OBSERVE	1 · VEZHGO
+2 · RANDOMIZE	2 · RASTËSO
+Compare states that have the law with states that don’t.	Krahasojmë shtetet që e kanë ligjin me ato që nuk e kanë.
+Flip a coin for each community: law now, or law later.	Hedhim një monedhë për secilin komunitet: ligji tani, apo më vonë.
+LAW	LIGJI
+NO LAW	PA LIGJ
+LAW NOW	LIGJI TANI
+LAW LATER	LIGJI MË VONË
+Different kinds of states, so we can’t tell what caused the difference.	Shtete të llojeve të ndryshme, ndaj nuk dimë çfarë e shkaktoi ndryshimin.
+Same mix in both groups, so only the law is different.	Përzierje e njëjtë në të dyja grupet, ndaj ndryshon vetëm ligji.
+each dot is a community. Its color is how it differs: income, culture, policing…	çdo pikë është një komunitet. Ngjyra tregon si ndryshon: të ardhurat, kultura, policia…
+Random order → differences afterwards come from the law.	Rend i rastësishëm → ndryshimet pas kësaj vijnë nga ligji.
+California’s APPS · 1,000+ communities · Dr. Garen Wintemute, UC Davis · results pending	APPS e Kalifornisë · mbi 1,000 komunitete · Dr. Garen Wintemute, UC Davis · rezultatet në pritje

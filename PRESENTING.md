@@ -1,90 +1,101 @@
 # How to present each slide
 
-**Story in one line:** a pattern in a sample becomes a conclusion only after good design, honest analysis and careful interpretation.
+**Story in one line:** Hazel and Everett check their school's claim, and a pattern in a sample becomes a conclusion only after good design, honest analysis and careful interpretation.
 
-**Keys:** `→` next · `←` back · `L` English/Albanian · full notes in `notes.html`.
-**Icons:** 🗳 ask the room · 🖱 click through steps
+**Cast:** Hazel (12th grader), Everett (her best friend), Michael (loves magic), the manager of Oasana (a non-profit).
+**Keys:** `â†’` next Â· `â†` back Â· `L` English/Albanian Â· full notes in `notes.html`.
+**Icons:** ðŸ—³ ask the room Â· ðŸ–± click through steps
 
 ---
 
-## Part 1 · The problem (1–7)
+## Prologue Â· The claim (1â€“2)
 
 | # | Slide | Say | Do |
 |---|-------|-----|----|
 | 1 | Opening | We collect data all the time. The step from data to a conclusion is where things go wrong. | Just open. |
-| 2 | The problem | A sample of students with sleep and GPA. What can we actually say? | 🗳 vote, then click their answer. |
-| 3 | EDA vs inference | Before: describing data. Now: jumping from sample to population. That jump is **inference**. | Read the definition. |
-| 4 | Population vs sample | We can't ask all 10,000 students, so we study a sample. A conclusion is only as good as the sample. | Drag the slider. |
-| 5 | Sample size question | Which sample size would you trust? | 🗳 vote, click their choice. |
-| 6 | Drawing a sample | Random picks from the whole jar. The white line is the sample average, in real life we never see the true mean. Margin of error = 1.96 × σ / √n. | Watch it play, press Replay if needed. |
-| 7 | Sample size | One survey is close but not exact. We repeat it 25 times only to *see* how much a single survey can miss. Bigger sample, tighter dots. 4× the students only halves the error. Size doesn't fix bias. | 🗳 vote, 🖱 click through. |
+| 2 | The claim | The school made the news and says sleep and health explain it. That is quietly a *causal* claim. Hazel is not convinced. | ðŸ–± quote â†’ Hazel's doubt â†’ "check it with data". |
 
-## Part 2 · Study design (8–12)
+## Act 1 Â· The plan (3â€“4)
 
 | # | Slide | Say | Do |
 |---|-------|-----|----|
-| 8 | Scientific method | Six steps, each applies to our sleep study. The last loops back to a new question. | 🖱 six steps. |
-| 9 | Experiment vocabulary | Sleep = explanatory, GPA = response. Course load = **confounder**, related to both. | 🖱 four cards. |
-| 10 | Study design | Observational: we only record. Experiment: a random process assigns the treatment. Only an experiment can talk about **cause**. | Click both options. |
-| 11 | Sleep case study | Course load changes sleep and GPA at the same time. | Click Next twice. |
-| 12 | Correlation | r = 0.48: positive, moderate. r = how sleep and GPA move together ÷ how much each varies. Does it prove causation? **No.** | 🗳 YES/NO, then dots recolor by course load. |
+| 3 | Three hunches | They can't ask all 384 students, so they survey a sample. Three testable hunches: sleep, grades, the link. | ðŸ–± three cards, then press **Survey 58 students** a few times. Each sample differs: that is why we need inference. |
+| 4 | Scientific method | Six steps, each applies to the study. The last loops back to a new question. | ðŸ–± six steps. |
 
-## Part 3 · Inference language and the t-test (13–21)
+## Act 2 Â· Gathering evidence (5â€“9)
 
-| # | Slide | Say | Do |
-|---|-------|-----|----|
-| 13 | Language of inference | Four terms: H₀, Hₐ, p-value, α. Say "reject H₀" or "fail to reject H₀". A large p never proves H₀. | Point at each card. |
-| 14 | Inference for a mean | Hazel and Everett: is the average GPA above 3.0? They got 3.971. Is that luck or real? A mean isn't Heads/Tails, so we use the **t-test**. | 🖱 steps. |
-| 15 | Same distance, different spread | Same 3.971, but with small spread it is very surprising, with big spread it isn't. Spread lets us judge objectively. | Compare the two figures. |
-| 16 | The t-test | t = how far the sample mean is from 3.0, in standard-error units. `s` is the sample standard deviation. | 🖱 Next: distance → standard error → t → p. |
-| 17 | Null distribution of t | If H₀ is true, t is near 0. Ours is 21.8, far in the tail, so p ≈ 0. Strong evidence. Only about students like our sample. | 🖱 steps. |
-| 18 | Significance | Shaded tails = p-value. Significant is a decision rule, not "important". | Toggle Study 1 / Study 2. |
-| 19 | Scope of inference | Who can we generalize to? Only the population the sampling represents. | Ask, then reveal. |
-| 20 | Extrapolation | Our data covers 4–10 hours. At 18 hours the line predicts GPA > 4.0. Don't predict outside the range. | Click to extend the line. |
-| 21 | Type I and II errors | Type I: see an effect that isn't there (prob. α). Type II: miss one that is. | Toggle between them. |
-
-## Part 4 · A/B testing (22–29)
+Data here comes from another school (400 students).
 
 | # | Slide | Say | Do |
 |---|-------|-----|----|
-| 22 | What is an A/B test | A race between two versions. Visitors are **randomly** assigned to A or B. Compare a metric. | 🖱 steps. |
-| 23 | A/B testing | Non-profit, two donation pages, shown at the same time. Randomization makes it an experiment. | Read it out. |
-| 24 | A/B phases | Testing phase (small group, A vs B), then implementation (roll out the winner). 5,000 of 50,000 visitors take part. | 🖱 steps. |
-| 25 | Randomization steps | 1) choose how many take part, 2) pick them at random, 3) split randomly into A and B. Equal-sized groups. | 🖱 steps. |
-| 26 | After the testing phase | Before rolling out: was it timing? Is it significant? Does it last? Are testers representative? | 🖱 steps. |
-| 27 | Two-sample t-test | Two groups, so two-sample t-test. H₀: no difference. Same logic as before: t near 0 if H₀ is true. Also think practical size. | 🖱 steps. |
-| 28 | A/B test result | B is about €2 higher, but don't call it better yet. | Click Run (t-test), then Implement. |
-| 29 | Simultaneous testing | Run A and B together, otherwise season, holidays and the economy get mixed in. | Read it out. |
+| 5 | Experiment vocabulary | Sleep = explanatory, GPA = response. Course load = **confounder**, related to both. | ðŸ–± four cards. |
+| 6 | Study design | Observational: we only record. Experiment: a random process assigns the treatment. Only an experiment can talk about **cause**. | Click both options. |
+| 7 | Sleep case study | Course load changes sleep and GPA at the same time. | Click Next twice. |
+| 8 | Correlation | Positive, moderate. Does it prove causation? **No.** | ðŸ—³ YES/NO, then dots recolor by course load. |
+| 9 | Ice cream and drownings | Real data: sales and drownings rise together (r ≈ 0.50). Ban ice cream? No: **temperature** drives both. Hold it fixed and the link vanishes. | 🖱 scatter → color by temperature → hidden-cause diagram. |
+| 10 | Case study | Each dot is a community; its color is how it differs. Observing states with vs without a law compares different kinds of places. California gave 1,000+ communities the law in *random order*, so both groups have the same mix. | 🖱 observe → randomize → "random order → the law is the difference". |
 
-## Part 5 · Tools and pitfalls (30–34)
+## Act 3 Â· The suspicious coin (10â€“15)
 
 | # | Slide | Say | Do |
 |---|-------|-----|----|
-| 30 | What is QuickSight | AWS dashboards in the browser: data source → dataset → analysis → dashboard. We use it to **describe**, not to test. | Walk the four steps. |
-| 31 | QuickSight | Our CSVs, three visuals. | Show the screenshots. |
-| 32 | p-hacking | Keep changing things until p < 0.05 and it is not evidence, it is searching. | 🖱 click through. |
-| 33 | Challenge | B has the higher average. Which conclusion is justified *before* the test? | 🗳 hand it to the room. |
-| 34 | Conclusion | Recap the whole chain once. Close on the last line. | Read the chain. |
+| 11 | Michael's coin | 60 Heads in 100 flips. Is that surprising for a fair coin? | ðŸ—³ give them ~1 min for aâ€“e. Try the live coin lab. |
+| 12 | Coin solution | Count 60 or more: 3 of 100 â‰ˆ **0.03**. Below Î± = 0.05, so reject "fair". Evidence, **not proof**. | ðŸ–± six steps. |
+| 13 | Statistical significance | Name it: enough evidence to reject Hâ‚€ = significant. Not the same as large or important. | ðŸ–± steps. |
+| 14 | Hypotheses | Map the coin onto the vocabulary. Null has "=", alternative has >, < or â‰ . | ðŸ–± steps. |
+| 15 | Rejecting the null | Memory aid: reject a negative and you get a positive. | Show the cartoon. |
+| 16 | Statistic and p-value | Statistic = a number from the sample. p-value = chance of a result this extreme if Hâ‚€ is true. | ðŸ–± steps. |
 
-## Part 6 · Practice and review (35–44)
+## Act 4 Â· Cracking the case (16â€“23)
 
 | # | Slide | Say | Do |
 |---|-------|-----|----|
-| 35 | Michael's coin | 60 Heads in 100 flips. Is that surprising for a fair coin? Figure 7.7 shows what a fair coin does. | 🗳 give them ~1 min for a–e. |
-| 36 | Coin solution | Most trials near 50. Michael's 60: count 60 or more = 3 of 100 ≈ **0.03**. Below α = 0.05, so reject "fair". Evidence, **not proof**. | 🖱 six steps. |
-| 37 | Statistical significance | Name it: enough evidence to reject H₀ = statistically significant. Not the same as large or important. | 🖱 steps. |
-| 38 | STAR framework | Write results as Situation, Task, Action, Result. | 🖱 four steps. |
-| 39 | Hypotheses | Map the coin onto the vocabulary. Null has "=", alternative has >, < or ≠. | 🖱 steps. |
-| 40 | Rejecting the null | Memory aid: reject a negative and you get a positive. "Reject H₀" means "yes, there is a change". | Show the cartoon. |
-| 41 | Statistic and p-value | Statistic = a number from the sample (here, # of Heads). p-value = chance of a result this extreme if H₀ is true. Lower p, stronger evidence. | 🖱 steps. |
-| 42 | Study methods | Does group study give higher scores? H₀: no difference. α = 0.05, set **before** the data. | 🗳 ~2 min to fill the blanks. |
-| 43 | Fill the blanks | Compare p with α. p = 0.002 → reject H₀. p = 0.20 → fail to reject (not proof they're equal). | Pick a scenario, 🖱 Next step. |
-| 44 | Questions and thanks | Thank them. If quiet, ask: *Which result surprised you most? Where could a confounder hide in a study you know?* | Open the floor. |
+| 17 | Inference for a mean | Is the average GPA above 3.0? They got 3.971. A mean isn't Heads/Tails, so we use the **t-test**. | ðŸ–± steps. |
+| 18 | Same distance, different spread | Same 3.971, but small spread is very surprising, big spread isn't. | Compare the two figures. |
+| 19 | The t-test | t = distance from 3.0 in standard-error units. | ðŸ–± distance â†’ SE â†’ t â†’ p. |
+| 20 | Null distribution of t | If Hâ‚€ is true, t is near 0. Ours is 21.8, so p â‰ˆ 0. | ðŸ–± steps. |
+| 21 | Reading the p-value | Shaded tails = p-value. Significant is a decision rule. | Toggle Study 1 / Study 2. |
+| 22 | The verdict | Grades high âœ“, sleep tracks GPA âœ“, but most students do **not** sleep 8 h âœ—. Half right, and only an association. | ðŸ–± steps. |
+| 23 | Scope of inference | Generalize only to the population the sampling represents. | Ask, then reveal. |
+| 24 | Extrapolation | Data covers 4â€“10 hours. Don't predict outside the range. | Click to extend the line. |
+
+## Act 5 Â· When evidence lies (25)
+
+| # | Slide | Say | Do |
+|---|-------|-----|----|
+| 25 | The confusion matrix | Four cells. Type I: see an effect that isn't there (prob. α). Type II: miss one that is. **Precision** = of what we flagged, how much was real. **Recall** = of what is real, how much we caught. | Toggle through the four views. |
+
+## Act 6 Â· The experiment (25â€“34)
+
+| # | Slide | Say | Do |
+|---|-------|-----|----|
+| 26 | What is an A/B test | A race between two versions. Visitors are **randomly** assigned. | ðŸ–± steps. |
+| 27 | A/B testing | Oasana: two donation pages, shown at the same time. | Read it out. |
+| 28 | A/B phases | Testing phase, then implementation. 5,000 of 50,000 visitors take part. | ðŸ–± steps. |
+| 29 | Randomization steps | Choose how many, pick at random, split randomly. | ðŸ–± steps. |
+| 30 | After the testing phase | Was it timing? Significant? Does it last? Representative? | ðŸ–± steps. |
+| 31 | Two-sample t-test | Two groups, so two-sample t-test. Hâ‚€: no difference. | ðŸ–± steps. |
+| 32 | A/B test result | B is higher, but don't call it better yet. | Click Run, then Implement. |
+| 33 | Simultaneous testing | Run A and B together, or season and holidays get mixed in. | Read it out. |
+| 34 | What is QuickSight | AWS dashboards: data source â†’ dataset â†’ analysis â†’ dashboard. We **describe**, not test. | Walk the four steps. |
+| 35 | QuickSight | Our CSVs, three visuals. | Show the screenshots. |
+
+## Epilogue Â· The big picture (35â€“41)
+
+| # | Slide | Say | Do |
+|---|-------|-----|----|
+| 36 | p-hacking | Keep changing things until p < 0.05 and it is searching, not evidence. | ðŸ–± click through. |
+| 37 | Challenge | B has the higher average. Which conclusion is justified *before* the test? | ðŸ—³ hand it to the room. |
+| 38 | Conclusion | Recap the whole chain once. Close on the last line. | Read the chain. |
+| 39 | STAR framework | Write results as Situation, Task, Action, Result. | ðŸ–± four steps. |
+| 40 | Study methods | Does group study give higher scores? Î± = 0.05, set **before** the data. | ðŸ—³ ~2 min to fill the blanks. |
+| 41 | Fill the blanks | p = 0.002 â†’ reject Hâ‚€. p = 0.20 â†’ fail to reject (not proof they're equal). | Pick a scenario, ðŸ–± Next step. |
+| 42 | Questions and thanks | Thank them. If quiet, ask: *Which result surprised you most? Where could a confounder hide in a study you know?* | Open the floor. |
 
 ---
 
 ## Say these three things out loud
 
-1. **Evidence, not proof.** Rejecting H₀ never proves anything.
+1. **Evidence, not proof.** Rejecting Hâ‚€ never proves anything.
 2. **Correlation is not causation.** Only a randomized experiment supports cause.
-3. **Significant is not important.** p < α is a decision rule, not the size of the effect.
+3. **Significant is not important.** p < Î± is a decision rule, not the size of the effect.
