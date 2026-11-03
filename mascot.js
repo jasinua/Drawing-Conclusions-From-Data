@@ -27,6 +27,7 @@
     ['skeptic', 'Spot the confounder: course load!'],
     ['skeptic', 'A correlation is not proof of cause.'],
     ['skeptic', 'Ice cream and drownings: who is the hidden cause?'],
+    ['think', 'A real policy question: does the program work?'],
     ['skeptic', 'Random order is how a law becomes an experiment.'],
     ['think', 'Is 60 Heads just luck?'],
     ['point', 'Count 60 or more: 3 of 100 trials.'],
