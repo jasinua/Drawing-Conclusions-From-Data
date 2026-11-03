@@ -14,6 +14,7 @@
     [data-step]{transition:opacity .45s ease,transform .45s cubic-bezier(.2,.7,.2,1),outline-color .3s}
     [data-step].step-hidden{opacity:0;transform:translateY(20px);pointer-events:none}
     [data-step].step-now{outline:2px solid rgba(88,183,226,.75);outline-offset:6px;border-radius:8px}
+    [data-step].step-now[data-noring]{outline:none}
     .steps-bar{position:absolute;left:120px;bottom:16px;display:flex;align-items:center;gap:18px;z-index:5}
     .steps-bar button{padding:12px 28px;border:2px solid #414651;border-radius:4px;background:transparent;color:#fff;font:700 24px Lato,'Helvetica Neue',Arial,sans-serif;cursor:pointer;transition:background .2s,opacity .2s;white-space:nowrap}
     .steps-bar button.primary{background:#1199d6;border-color:#1199d6}

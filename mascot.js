@@ -17,6 +17,7 @@
   // [mood, line] per slide, in deck order.
   const SLIDES = [
     ['wave', "Hi, I'm Sigma! Let's see what data can really tell us."],
+    ['wave', 'Meet Hazel and Everett. Their school just became famous!'],
     ['think', 'Is the school telling the truth?'],
     ['point', 'Every sample tells a slightly different story.'],
     ['point', 'Six steps, and the last one loops back to the start.'],
