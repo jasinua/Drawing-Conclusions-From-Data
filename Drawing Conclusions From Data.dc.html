@@ -116,8 +116,8 @@ input[type=range]{accent-color:#1199d6}
 
 <section data-steps="3" data-label="04 Three hunches" data-screen-label="04 Three hunches" data-speaker-notes="They cannot ask every student, so they survey a sample and use it to estimate the whole school. Before collecting anything they write three testable hunches: fewer than half sleep eight hours, the average GPA is above three, and more sleep goes with higher GPA. Then press the button: each random sample of 58 gives a slightly different answer. That wobble is exactly why we need inference." style="background:#0a0d12;color:#fff;font-family:Lato,'Helvetica Neue',Arial,sans-serif;padding:80px 120px;box-sizing:border-box;display:flex;flex-direction:column;overflow:hidden">
   <div style="display:flex;gap:20px;align-items:baseline;font-size:24px;font-weight:700;letter-spacing:.16em"><span style="color:#58b7e2">04</span><span style="color:#a4a7ae">ACT 1 · THE PLAN</span></div>
-  <h2 class="a-up" style="margin:24px 0 0;font-size:76px;font-weight:900;line-height:1.05;letter-spacing:-.02em">Three hunches. One sample.</h2>
-  <div style="flex:1;display:grid;grid-template-columns:minmax(0,1fr) 760px;gap:96px;margin-top:48px;align-items:start">
+  <h2 class="a-up" style="margin:16px 0 0;font-size:64px;font-weight:900;line-height:1.05;letter-spacing:-.02em">Three hunches. One sample.</h2>
+  <div style="flex:1;display:grid;grid-template-columns:minmax(0,1fr) 760px;gap:96px;margin-top:28px;align-items:start">
     <div style="display:flex;flex-direction:column;gap:24px">
     <div data-step="1" style="background:#181d27;border:1px solid #252b37;border-radius:8px;padding:28px 36px;display:flex;flex-direction:column;gap:8px">
       <div style="font-size:22px;font-weight:700;letter-spacing:.16em;color:#58b7e2">SLEEP</div>
@@ -135,19 +135,19 @@ input[type=range]{accent-color:#1199d6}
       <div style="font-size:24px;color:#a4a7ae">we will see</div>
     </div>
     </div>
-    <div class="a-fade" style="display:flex;flex-direction:column;gap:20px;animation-delay:.3s">
+    <div class="a-fade" style="display:flex;flex-direction:column;gap:12px;animation-delay:.3s">
       <div style="display:flex;justify-content:space-between;align-items:center;gap:24px">
-        <span style="font-size:24px;font-weight:700;letter-spacing:.16em;color:#a4a7ae">THE SCHOOL · 384 STUDENTS</span>
-        <button onClick="{{ nextWob }}" style="padding:16px 28px;border:none;border-radius:4px;background:#1199d6;color:#fff;font-size:26px;font-weight:700;cursor:pointer;transition:background .2s" style-hover="background:#0d7aab">Survey 58 students</button>
+        <span style="font-size:22px;font-weight:700;letter-spacing:.12em;color:#a4a7ae;white-space:nowrap">THE SCHOOL · 384 STUDENTS</span>
+        <button onClick="{{ nextWob }}" style="padding:12px 24px;border:none;border-radius:4px;background:#1199d6;color:#fff;font-size:24px;white-space:nowrap;font-weight:700;cursor:pointer;transition:background .2s" style-hover="background:#0d7aab">Survey 58 students</button>
       </div>
       {{ wobGrid }}
       <div style="display:flex;gap:28px;font-size:22px;color:#a4a7ae"><span style="color:#58b7e2">● sleeps 8+ h</span><span style="color:#fdb022">● sleeps less</span><span>● not asked</span></div>
-      <div style="display:flex;align-items:baseline;gap:16px;min-height:72px;font-variant-numeric:tabular-nums">
-        <sc-if value="{{ wob.on }}"><span style="font-size:64px;font-weight:900;color:#58b7e2">{{ wob.p }}</span><span style="font-size:28px;color:#d5d7da">of the sample sleep 8+ h</span></sc-if>
+      <div style="display:flex;align-items:baseline;gap:16px;min-height:60px;font-variant-numeric:tabular-nums">
+        <sc-if value="{{ wob.on }}"><span style="font-size:56px;font-weight:900;color:#58b7e2">{{ wob.p }}</span><span style="font-size:28px;color:#d5d7da">of the sample sleep 8+ h</span></sc-if>
         <sc-if value="{{ wob.off }}"><span style="font-size:28px;color:#717680">Nobody can ask all 384.</span></sc-if>
       </div>
       <div style="display:flex;gap:14px;min-height:44px;font-size:28px;font-weight:700;font-variant-numeric:tabular-nums">{{ wobHist }}</div>
-      <sc-if value="{{ wob.many }}"><div class="a-up" style="font-size:34px;font-weight:900">Every sample tells a slightly different story.</div></sc-if>
+      <sc-if value="{{ wob.many }}"><div class="a-up" style="font-size:30px;font-weight:900">Every sample tells a slightly different story.</div></sc-if>
     </div>
   </div>
 </section>
@@ -1423,8 +1423,8 @@ class Component extends DCLogic {
 
   wobEl(n) {
     const h = React.createElement, pick = n ? this.wobPick(n).pick : new Set();
-    return h('div', { style: { display: 'grid', gridTemplateColumns: 'repeat(24, 24px)', gap: 8 } }, Array.from({ length: 384 }, (_, i) =>
-      h('span', { key: i, style: { width: 24, height: 24, borderRadius: '50%', background: !pick.has(i) ? '#252b37' : this.wobSleep.has(i) ? '#58b7e2' : '#fdb022', transition: 'background .3s' } })));
+    return h('div', { style: { display: 'grid', gridTemplateColumns: 'repeat(24, 20px)', gap: 6 } }, Array.from({ length: 384 }, (_, i) =>
+      h('span', { key: i, style: { width: 20, height: 20, borderRadius: '50%', background: !pick.has(i) ? '#252b37' : this.wobSleep.has(i) ? '#58b7e2' : '#fdb022', transition: 'background .3s' } })));
   }
 
   wobHistEl(n) {
