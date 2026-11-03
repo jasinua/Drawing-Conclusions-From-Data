@@ -52,6 +52,7 @@
     ['point', 'January vs December? Time is a confounder.'],
     ['point', 'QuickSight describes. Inference decides.'],
     ['happy', 'Click a chart to zoom in!'],
+    ['point', 'A chart describes. Only inference can decide.'],
     ['worried', 'Try, retry... p = 0.04? That is p-hacking.'],
     ['think', 'Take your time, then pick one.'],
     ['cheer', 'Data does not hand us the truth by itself.'],

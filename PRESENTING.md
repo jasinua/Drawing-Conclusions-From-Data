@@ -80,18 +80,19 @@ Data here comes from another school (400 students).
 | 34 | Simultaneous testing | Run A and B together, or season and holidays get mixed in. | Read it out. |
 | 35 | What is QuickSight | AWS dashboards: data source â†’ dataset â†’ analysis â†’ dashboard. We **describe**, not test. | Walk the four steps. |
 | 36 | QuickSight | Our CSVs, three visuals. | Show the screenshots. |
+| 37 | Dashboards describe. Inference decides. | QuickSight shows what is in the data: average, spread, whether two things move together. It cannot tell us if a pattern is real: that is the t-test and p-value. And a dashboard shows whatever you feed it, so bias and confounders still matter. | 🖱 left (describe) → right (decide) → Hazel's pipeline → warning. |
 
 ## Epilogue Â· The big picture (36–42)
 
 | # | Slide | Say | Do |
 |---|-------|-----|----|
-| 37 | p-hacking | Keep changing things until p < 0.05 and it is searching, not evidence. | ðŸ–± click through. |
-| 38 | Challenge | B has the higher average. Which conclusion is justified *before* the test? | ðŸ—³ hand it to the room. |
-| 39 | Conclusion | Recap the whole chain once. Close on the last line. | Read the chain. |
-| 40 | STAR framework | Write results as Situation, Task, Action, Result. | ðŸ–± four steps. |
-| 41 | Study methods | Does group study give higher scores? Î± = 0.05, set **before** the data. | ðŸ—³ ~2 min to fill the blanks. |
-| 42 | Fill the blanks | p = 0.002 â†’ reject Hâ‚€. p = 0.20 â†’ fail to reject (not proof they're equal). | Pick a scenario, ðŸ–± Next step. |
-| 43 | Questions and thanks | Thank them. If quiet, ask: *Which result surprised you most? Where could a confounder hide in a study you know?* | Open the floor. |
+| 38 | p-hacking | Keep changing things until p < 0.05 and it is searching, not evidence. | ðŸ–± click through. |
+| 39 | Challenge | B has the higher average. Which conclusion is justified *before* the test? | ðŸ—³ hand it to the room. |
+| 40 | Conclusion | Recap the whole chain once. Close on the last line. | Read the chain. |
+| 41 | STAR framework | Write results as Situation, Task, Action, Result. | ðŸ–± four steps. |
+| 42 | Study methods | Does group study give higher scores? Î± = 0.05, set **before** the data. | ðŸ—³ ~2 min to fill the blanks. |
+| 43 | Fill the blanks | p = 0.002 â†’ reject Hâ‚€. p = 0.20 â†’ fail to reject (not proof they're equal). | Pick a scenario, ðŸ–± Next step. |
+| 44 | Questions and thanks | Thank them. If quiet, ask: *Which result surprised you most? Where could a confounder hide in a study you know?* | Open the floor. |
 
 ---
 

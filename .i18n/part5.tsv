@@ -144,3 +144,40 @@ What else could be hiding?	Çfarë tjetër mund të fshihet?
 HAZEL AND EVERETT ASK	HAZELI DHE EVERETTI PYESIN
 Sleep and GPA move together. What else could change both?	Gjumi dhe GPA lëvizin bashkë. Çfarë tjetër mund t’i ndryshojë të dyja?
 Course load: a heavy load means less sleep and lower GPA.	Ngarkesa e lëndëve: ngarkesë e rëndë do të thotë më pak gjumë dhe GPA më e ulët.
+The population is every flip this coin could ever make.	Popullata është çdo hedhje që mund të bëjë ndonjëherë kjo monedhë.
+What we want to know: is the coin fair?	Ajo që duam të dimë: a është e drejtë monedha?
+And all we actually have is 100 flips.	Dhe ajo që kemi në fakt janë 100 hedhje.
+The null says nothing special is going on: the coin is fair.	Hipoteza zero thotë se nuk ndodh asgjë e veçantë: monedha është e drejtë.
+The alternative is my suspicion: the coin is not fair.	Alternativa është dyshimi im: monedha nuk është e drejtë.
+All possible flips of Michael’s coin	Të gjitha hedhjet e mundshme të monedhës së Mikaelit
+Is the coin fair?	A është e drejtë monedha?
+The 100 flips Michael handed us	100 hedhjet që na dha Mikaeli
+No change. No effect. No difference.	Pa ndryshim. Pa efekt. Pa dallim.
+Always has	Ka gjithmonë
+Uses	Përdor
+The researcher’s suspicion.	Dyshimi i studiuesit.
+A/B test	Testi A/B
+= a race between two versions.	= një garë mes dy versioneve.
+A randomized experiment.	Një eksperiment i rastësishëm.
+VISITORS	VIZITORËT
+Version A	Versioni A
+The original	Origjinali
+Version B	Versioni B
+The new one	I riu
+Dashboards describe. Inference decides.	Panelet përshkruajnë. Inferenca vendos.
+QUICKSIGHT SHOWS	QUICKSIGHT SHFAQ
+What is in the data	Çfarë ka në të dhëna
+The average	Mesataren
+The spread	Shpërndarjen
+Do two things move together?	A lëvizin bashkë dy gjëra?
+WE DECIDE WITH INFERENCE	VENDOSIM ME INFERENCË
+Is it real or luck?	A është e vërtetë apo fat?
+Could this be chance?	A mund të jetë rastësi?
+The t-statistic	Statistikën t
+The p-value	Vlerën p
+QuickSight	QuickSight
+chart	grafiku
+“r = 0.48. But is it real?”	“r = 0.48. Por a është e vërtetë?”
+t-test, p-value	testi t, vlera p
+WATCH OUT	KUJDES
+A dashboard shows whatever you feed it. Biased sample or hidden confounder? A pretty chart still misleads.	Paneli shfaq çfarëdo që i jep. Mostër e anshme apo ndryshore e fshehur? Një grafik i bukur prapë mashtron.
