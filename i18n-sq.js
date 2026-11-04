@@ -881,7 +881,8 @@ window.I18N_SQ = {
 "Same mix in both groups, so only the law is different.": "Përzierje e njëjtë në të dyja grupet, ndaj ndryshon vetëm ligji.",
 "each dot is a community. Its color is how it differs: income, culture, policing…": "çdo pikë është një komunitet. Ngjyra tregon si ndryshon: të ardhurat, kultura, policia…",
 "Random order → differences afterwards come from the law.": "Rend i rastësishëm → ndryshimet pas kësaj vijnë nga ligji.",
-"California’s APPS · 1,000+ communities · Dr. Garen Wintemute, UC Davis · results pending": "APPS e Kalifornisë · mbi 1,000 komunitete · Dr. Garen Wintemute, UC Davis · rezultatet në pritje"
+"California’s APPS · 1,000+ communities · Dr. Garen Wintemute, UC Davis · results pending": "APPS e Kalifornisë · mbi 1,000 komunitete · Dr. Garen Wintemute, UC Davis · rezultatet në pritje",
+"of 58 students)": "të 58 nxënësve)"
 },
 "rules": [
 [
