@@ -31,6 +31,7 @@
     ['skeptic', 'Random order is how a law becomes an experiment.'],
     ['think', 'Is 60 Heads just luck?'],
     ['point', 'Count 60 or more: 3 of 100 trials.'],
+    ['point', 'S, T, A, R: tell the story in four steps.'],
     ['happy', 'Unlikely by chance alone? Then it is significant.'],
     ['point', 'The null is the status quo. It always has an equals sign.'],
     ['happy', 'Reject the null means yes, something changed!'],
@@ -59,9 +60,6 @@
     ['worried', 'Try, retry... p = 0.04? That is p-hacking.'],
     ['think', 'Take your time, then pick one.'],
     ['cheer', 'Data does not hand us the truth by itself.'],
-    ['point', 'S, T, A, R: tell the story in four steps.'],
-    ['think', 'Try the blanks before you click!'],
-    ['happy', 'p < alpha: reject. p >= alpha: fail to reject.'],
     ['cheer', 'Thank you for listening! Any questions?']
   ];
 

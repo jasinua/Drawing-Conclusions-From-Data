@@ -38,64 +38,62 @@ Data here comes from another school (400 students).
 | 12 | The gun-law case | Real-world context first. California's APPS (Armed and Prohibited Persons System) follows up on people who legally owned a gun but later became prohibited (felony conviction, restraining order) and recovers those guns. Does it reduce gun violence? | 🖱 question → how APPS works → "how would we test it?". |
 | 13 | Case study | Each dot is a community; its color is how it differs. Observing states with vs without a law compares different kinds of places. California gave 1,000+ communities the law in *random order*, so both groups have the same mix. The 2024 report found no statistically significant city-wide effect: not proof it does nothing. | 🖱 observe → randomize → "random order → the law is the difference". |
 
-## Act 3 Â· The suspicious coin (14–19)
+## Act 3 Â· The suspicious coin (14–20)
 
 | # | Slide | Say | Do |
 |---|-------|-----|----|
 | 14 | Michael's coin | 60 Heads in 100 flips. Is that surprising for a fair coin? | ðŸ—³ give them ~1 min for aâ€“e. Try the live coin lab. |
 | 15 | Coin solution | Count 60 or more: 3 of 100 â‰ˆ **0.03**. Below Î± = 0.05, so reject "fair". Evidence, **not proof**. | ðŸ–± six steps. |
-| 16 | Statistical significance | Name it: enough evidence to reject Hâ‚€ = significant. Not the same as large or important. | ðŸ–± steps. |
-| 17 | Hypotheses | Map the coin onto the vocabulary. Null has "=", alternative has >, < or â‰ . | ðŸ–± steps. |
-| 18 | Rejecting the null | Memory aid: reject a negative and you get a positive. | Show the cartoon. |
-| 19 | Statistic and p-value | Statistic = a number from the sample. p-value = chance of a result this extreme if Hâ‚€ is true. | ðŸ–± steps. |
+| 16 | STAR framework | Write results as Situation, Task, Action, Result. | ðŸ–± four steps. |
+| 17 | Statistical significance | Name it: enough evidence to reject Hâ‚€ = significant. Not the same as large or important. | ðŸ–± steps. |
+| 18 | Hypotheses | Map the coin onto the vocabulary. Null has "=", alternative has >, < or â‰ . | ðŸ–± steps. |
+| 19 | Rejecting the null | Memory aid: reject a negative and you get a positive. | Show the cartoon. |
+| 20 | Statistic and p-value | Statistic = a number from the sample. p-value = chance of a result this extreme if Hâ‚€ is true. | ðŸ–± steps. |
 
-## Act 4 Â· Cracking the case (20–27)
-
-| # | Slide | Say | Do |
-|---|-------|-----|----|
-| 20 | Inference for a mean | Is the average GPA above 3.0? They got 3.971. A mean isn't Heads/Tails, so we use the **t-test**. | ðŸ–± steps. |
-| 21 | Same distance, different spread | Same 3.971, but small spread is very surprising, big spread isn't. | Compare the two figures. |
-| 22 | The t-test | t = distance from 3.0 in standard-error units. | ðŸ–± distance â†’ SE â†’ t â†’ p. |
-| 23 | Null distribution of t | If Hâ‚€ is true, t is near 0. Ours is 21.8, so p â‰ˆ 0. | ðŸ–± steps. |
-| 24 | Reading the p-value | Shaded tails = p-value. Significant is a decision rule. | Toggle Study 1 / Study 2. |
-| 25 | The verdict | Grades high âœ“, sleep tracks GPA âœ“, but most students do **not** sleep 8 h âœ—. Half right, and only an association. | ðŸ–± steps. |
-| 26 | Scope of inference | Generalize only to the population the sampling represents. | Ask, then reveal. |
-| 27 | Extrapolation | Data covers 4â€“10 hours. Don't predict outside the range. | Click to extend the line. |
-
-## Act 5 Â· When evidence lies (28)
+## Act 4 Â· Cracking the case (21–28)
 
 | # | Slide | Say | Do |
 |---|-------|-----|----|
-| 28 | The confusion matrix | Four cells. Type I: see an effect that isn't there (prob. α). Type II: miss one that is. **Precision** = of what we flagged, how much was real. **Recall** = of what is real, how much we caught. | Toggle through the four views. |
+| 21 | Inference for a mean | Is the average GPA above 3.0? They got 3.971. A mean isn't Heads/Tails, so we use the **t-test**. | ðŸ–± steps. |
+| 22 | Same distance, different spread | Same 3.971, but small spread is very surprising, big spread isn't. | Compare the two figures. |
+| 23 | The t-test | t = distance from 3.0 in standard-error units. | ðŸ–± distance â†’ SE â†’ t â†’ p. |
+| 24 | Null distribution of t | If Hâ‚€ is true, t is near 0. Ours is 21.8, so p â‰ˆ 0. | ðŸ–± steps. |
+| 25 | Reading the p-value | Shaded tails = p-value. Significant is a decision rule. | Toggle Study 1 / Study 2. |
+| 26 | The verdict | Grades high âœ“, sleep tracks GPA âœ“, but most students do **not** sleep 8 h âœ—. Half right, and only an association. | ðŸ–± steps. |
+| 27 | Scope of inference | Generalize only to the population the sampling represents. | Ask, then reveal. |
+| 28 | Extrapolation | Data covers 4â€“10 hours. Don't predict outside the range. | Click to extend the line. |
 
-## Act 6 Â· The experiment (29–40)
-
-| # | Slide | Say | Do |
-|---|-------|-----|----|
-| 29 | Their website | Back to Hazel and Everett: their website collects donations for the school club. What if a new donate page brings in more? Instead of guessing, they test it. | 🖱 Hazel → Everett → "they test it". |
-| 30 | What is an A/B test | A race between two versions. Visitors are **randomly** assigned. | ðŸ–± steps. |
-| 31 | A/B testing | Oasana: two donation pages, shown at the same time. | Read it out. |
-| 32 | A/B phases | Testing phase, then implementation. 5,000 of 50,000 visitors take part. | ðŸ–± steps. |
-| 33 | Randomization steps | Choose how many, pick at random, split randomly. | ðŸ–± steps. |
-| 34 | After the testing phase | Was it timing? Significant? Does it last? Representative? | ðŸ–± steps. |
-| 35 | Two-sample t-test | Two groups, so two-sample t-test. Hâ‚€: no difference. | ðŸ–± steps. |
-| 36 | A/B test result | B is higher, but don't call it better yet. | Click Run, then Implement. |
-| 37 | Simultaneous testing | Run A and B together, or season and holidays get mixed in. | Read it out. |
-| 38 | What is QuickSight | AWS dashboards: data source â†’ dataset â†’ analysis â†’ dashboard. We **describe**, not test. | Walk the four steps. |
-| 39 | QuickSight | Our CSVs, three visuals. | Show the screenshots. |
-| 40 | Dashboards describe. Inference decides. | QuickSight shows what is in the data: average, spread, whether two things move together. It cannot tell us if a pattern is real: that is the t-test and p-value. And a dashboard shows whatever you feed it, so bias and confounders still matter. | 🖱 left (describe) → right (decide) → Hazel's pipeline → warning. |
-
-## Epilogue Â· The big picture (41–47)
+## Act 5 Â· When evidence lies (29)
 
 | # | Slide | Say | Do |
 |---|-------|-----|----|
-| 41 | p-hacking | Keep changing things until p < 0.05 and it is searching, not evidence. | ðŸ–± click through. |
-| 42 | Challenge | B has the higher average. Which conclusion is justified *before* the test? | ðŸ—³ hand it to the room. |
-| 43 | Conclusion | Recap the whole chain once. Close on the last line. | Read the chain. |
-| 44 | STAR framework | Write results as Situation, Task, Action, Result. | ðŸ–± four steps. |
-| 45 | Study methods | Does group study give higher scores? Î± = 0.05, set **before** the data. | ðŸ—³ ~2 min to fill the blanks. |
-| 46 | Fill the blanks | p = 0.002 â†’ reject Hâ‚€. p = 0.20 â†’ fail to reject (not proof they're equal). | Pick a scenario, ðŸ–± Next step. |
-| 47 | Questions and thanks | Thank them. If quiet, ask: *Which result surprised you most? Where could a confounder hide in a study you know?* | Open the floor. |
+| 29 | The confusion matrix | Four cells. Type I: see an effect that isn't there (prob. α). Type II: miss one that is. **Precision** = of what we flagged, how much was real. **Recall** = of what is real, how much we caught. | Toggle through the four views. |
+
+## Act 6 Â· The experiment (30–41)
+
+| # | Slide | Say | Do |
+|---|-------|-----|----|
+| 30 | Their website | Back to Hazel and Everett: their website collects donations for the school club. What if a new donate page brings in more? Instead of guessing, they test it. | 🖱 Hazel → Everett → "they test it". |
+| 31 | What is an A/B test | A race between two versions. Visitors are **randomly** assigned. | ðŸ–± steps. |
+| 32 | A/B testing | Oasana: two donation pages, shown at the same time. | Read it out. |
+| 33 | A/B phases | Testing phase, then implementation. 5,000 of 50,000 visitors take part. | ðŸ–± steps. |
+| 34 | Randomization steps | Choose how many, pick at random, split randomly. | ðŸ–± steps. |
+| 35 | After the testing phase | Was it timing? Significant? Does it last? Representative? | ðŸ–± steps. |
+| 36 | Two-sample t-test | Two groups, so two-sample t-test. Hâ‚€: no difference. | ðŸ–± steps. |
+| 37 | A/B test result | B is higher, but don't call it better yet. | Click Run, then Implement. |
+| 38 | Simultaneous testing | Run A and B together, or season and holidays get mixed in. | Read it out. |
+| 39 | What is QuickSight | AWS dashboards: data source â†’ dataset â†’ analysis â†’ dashboard. We **describe**, not test. | Walk the four steps. |
+| 40 | QuickSight | Our CSVs, three visuals. | Show the screenshots. |
+| 41 | Dashboards describe. Inference decides. | QuickSight shows what is in the data: average, spread, whether two things move together. It cannot tell us if a pattern is real: that is the t-test and p-value. And a dashboard shows whatever you feed it, so bias and confounders still matter. | 🖱 left (describe) → right (decide) → Hazel's pipeline → warning. |
+
+## Epilogue Â· The big picture (42–45)
+
+| # | Slide | Say | Do |
+|---|-------|-----|----|
+| 42 | p-hacking | Keep changing things until p < 0.05 and it is searching, not evidence. | ðŸ–± click through. |
+| 43 | Challenge | B has the higher average. Which conclusion is justified *before* the test? | ðŸ—³ hand it to the room. |
+| 44 | Conclusion | Recap the whole chain once. Close on the last line. | Read the chain. |
+| 45 | Questions and thanks | Thank them. If quiet, ask: *Which result surprised you most? Where could a confounder hide in a study you know?* | Open the floor. |
 
 ---
 
