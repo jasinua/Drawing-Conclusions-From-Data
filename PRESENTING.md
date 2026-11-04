@@ -42,13 +42,13 @@ Data here comes from another school (400 students).
 
 | # | Slide | Say | Do |
 |---|-------|-----|----|
-| 14 | Michael's coin | 60 Heads in 100 flips. Is that surprising for a fair coin? | ðŸ—³ give them ~1 min for aâ€“e. Try the live coin lab. |
+| 14 | Michael's coin | 60 Heads in 100 flips. Is that surprising for a fair coin? The STAR prompt is a teaser: say we answer it on slide 20. | ðŸ—³ give them ~1 min for aâ€“e. Try the live coin lab. |
 | 15 | Coin solution | Count 60 or more: 3 of 100 â‰ˆ **0.03**. Below Î± = 0.05, so reject "fair". Evidence, **not proof**. | ðŸ–± six steps. |
-| 16 | STAR framework | Write results as Situation, Task, Action, Result. | ðŸ–± four steps. |
-| 17 | Statistical significance | Name it: enough evidence to reject Hâ‚€ = significant. Not the same as large or important. | ðŸ–± steps. |
-| 18 | Hypotheses | Map the coin onto the vocabulary. Null has "=", alternative has >, < or â‰ . | ðŸ–± steps. |
-| 19 | Rejecting the null | Memory aid: reject a negative and you get a positive. | Show the cartoon. |
-| 20 | Statistic and p-value | Statistic = a number from the sample. p-value = chance of a result this extreme if Hâ‚€ is true. | ðŸ–± steps. |
+| 16 | Statistical significance | Name it: enough evidence to reject Hâ‚€ = significant. Not the same as large or important. | ðŸ–± steps. |
+| 17 | Hypotheses | Map the coin onto the vocabulary. Null has "=", alternative has >, < or â‰ . | ðŸ–± steps. |
+| 18 | Rejecting the null | Memory aid: reject a negative and you get a positive. | Show the cartoon. |
+| 19 | Statistic and p-value | Statistic = a number from the sample. p-value = chance of a result this extreme if Hâ‚€ is true. | ðŸ–± steps. |
+| 20 | STAR framework | Now they have the words: write the whole case up as Situation, Task, Action, Result. Closes Act 3. | ðŸ–± four steps. |
 
 ## Act 4 Â· Cracking the case (21–28)
 

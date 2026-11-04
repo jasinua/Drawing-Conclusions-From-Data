@@ -332,7 +332,7 @@ window.I18N_SQ = {
 "Best estimate of the probability of a result as extreme as Michael's? (2 decimals)": "Vlerësimi më i mirë i probabilitetit të një rezultati po aq ekstrem sa i Mikaelit? (2 shifra pas presjes)",
 "Is that probability high or low?": "A është ky probabilitet i lartë apo i ulët?",
 "Evidence for or against a fair coin?": "Dëshmi pro apo kundër një monedhe të drejtë?",
-"Describe the result with the STAR framework.": "Përshkruaje rezultatin me modelin STAR.",
+"Describe the result with the STAR framework — we come back to this at the end of the act.": "Përshkruaje rezultatin me modelin STAR — i kthehemi kësaj në fund të aktit.",
 "Solving it, step by step": "Zgjidhja, hap pas hapi",
 "Back": "Kthehu",
 "A · WHAT DOES A FAIR COIN DO?": "A · ÇFARË BËN NJË MONEDHË E DREJTË?",
