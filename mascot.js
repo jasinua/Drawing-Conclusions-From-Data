@@ -55,6 +55,7 @@
     ['skeptic', 'A higher average is not yet proof.'],
     ['point', 'January vs December? Time is a confounder.'],
     ['point', 'QuickSight describes. Inference decides.'],
+    ['happy', 'Charts, forecasts, plain-English questions. Nice!'],
     ['happy', 'Click a chart to zoom in!'],
     ['point', 'A chart describes. Only inference can decide.'],
     ['worried', 'Try, retry... p = 0.04? That is p-hacking.'],

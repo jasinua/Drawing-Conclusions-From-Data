@@ -69,7 +69,7 @@ Data here comes from another school (400 students).
 |---|-------|-----|----|
 | 29 | The confusion matrix | Four cells. Type I: see an effect that isn't there (prob. α). Type II: miss one that is. **Precision** = of what we flagged, how much was real. **Recall** = of what is real, how much we caught. | Toggle through the four views. |
 
-## Act 6 Â· The experiment (30–41)
+## Act 6 Â· The experiment (30–42)
 
 | # | Slide | Say | Do |
 |---|-------|-----|----|
@@ -83,17 +83,18 @@ Data here comes from another school (400 students).
 | 37 | A/B test result | B is higher, but don't call it better yet. | Click Run, then Implement. |
 | 38 | Simultaneous testing | Run A and B together, or season and holidays get mixed in. | Read it out. |
 | 39 | What is QuickSight | AWS dashboards: data source â†’ dataset â†’ analysis â†’ dashboard. We **describe**, not test. | Walk the four steps. |
-| 40 | QuickSight | Our CSVs, three visuals. | Show the screenshots. |
-| 41 | Dashboards describe. Inference decides. | QuickSight shows what is in the data: average, spread, whether two things move together. It cannot tell us if a pattern is real: that is the t-test and p-value. And a dashboard shows whatever you feed it, so bias and confounders still matter. | 🖱 left (describe) → right (decide) → Hazel's pipeline → warning. |
+| 40 | What QuickSight can do | Six powers: connect to almost any data, fast in-memory engine (SPICE), 30+ visual types, ML insights (anomalies, forecasts), ask in plain English, share with thousands. Then the limit: it describes, it doesn't test. | 🖱 top row → bottom row → warning. |
+| 41 | QuickSight | Our CSVs, three visuals. | Show the screenshots. |
+| 42 | Dashboards describe. Inference decides. | QuickSight shows what is in the data: average, spread, whether two things move together. It cannot tell us if a pattern is real: that is the t-test and p-value. And a dashboard shows whatever you feed it, so bias and confounders still matter. | 🖱 left (describe) → right (decide) → Hazel's pipeline → warning. |
 
-## Epilogue Â· The big picture (42–45)
+## Epilogue Â· The big picture (43–46)
 
 | # | Slide | Say | Do |
 |---|-------|-----|----|
-| 42 | p-hacking | Keep changing things until p < 0.05 and it is searching, not evidence. | ðŸ–± click through. |
-| 43 | Challenge | B has the higher average. Which conclusion is justified *before* the test? | ðŸ—³ hand it to the room. |
-| 44 | Conclusion | Recap the whole chain once. Close on the last line. | Read the chain. |
-| 45 | Questions and thanks | Thank them. If quiet, ask: *Which result surprised you most? Where could a confounder hide in a study you know?* | Open the floor. |
+| 43 | p-hacking | Keep changing things until p < 0.05 and it is searching, not evidence. | ðŸ–± click through. |
+| 44 | Challenge | B has the higher average. Which conclusion is justified *before* the test? | ðŸ—³ hand it to the room. |
+| 45 | Conclusion | Recap the whole chain once. Close on the last line. | Read the chain. |
+| 46 | Questions and thanks | Thank them. If quiet, ask: *Which result surprised you most? Where could a confounder hide in a study you know?* | Open the floor. |
 
 ---
 

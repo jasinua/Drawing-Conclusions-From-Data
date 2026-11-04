@@ -882,7 +882,23 @@ window.I18N_SQ = {
 "each dot is a community. Its color is how it differs: income, culture, policing…": "çdo pikë është një komunitet. Ngjyra tregon si ndryshon: të ardhurat, kultura, policia…",
 "Random order → differences afterwards come from the law.": "Rend i rastësishëm → ndryshimet pas kësaj vijnë nga ligji.",
 "California’s APPS · 1,000+ communities · Dr. Garen Wintemute, UC Davis · results pending": "APPS e Kalifornisë · mbi 1,000 komunitete · Dr. Garen Wintemute, UC Davis · rezultatet në pritje",
-"of 58 students)": "të 58 nxënësve)"
+"of 58 students)": "të 58 nxënësve)",
+"What QuickSight can do": "Çfarë mund të bëjë QuickSight",
+"Much more than a chart maker.": "Shumë më tepër se një krijues grafikësh.",
+"Connect anything": "Lidhu me gjithçka",
+"Files, S3, Athena, Redshift, RDS, Snowflake, Salesforce and more.": "Skedarë, S3, Athena, Redshift, RDS, Snowflake, Salesforce e më shumë.",
+"Fast at scale": "I shpejtë",
+"SPICE keeps data in memory, so charts react instantly, even on millions of rows.": "SPICE i mban të dhënat në memorie, grafikët reagojnë menjëherë.",
+"30+ visual types": "Mbi 30 lloje grafikësh",
+"Bar, line, scatter, heat map, pivot table, map, KPI, funnel.": "Shtylla, vijë, shpërndarje, hartë nxehtësie, tabelë pivot, hartë, KPI, hinkë.",
+"ML insights": "Njohuri me ML",
+"Spots anomalies and forecasts trends. No data scientist needed.": "Zbulon anomali dhe parashikon trendet. Nuk duhet shkencëtar të dhënash.",
+"Ask in plain English": "Pyet në gjuhë të thjeshtë",
+"Type a question and get a chart, with Amazon Q in QuickSight.": "Shkruaj një pyetje dhe merr një grafik, me Amazon Q në QuickSight.",
+"Share with thousands": "Ndaje me mijëra njerëz",
+"Dashboards in the browser, in emails, or embedded in your own app.": "Dashboard në shfletues, në email ose në aplikacionin tënd.",
+"BUT REMEMBER": "POR KUJTO",
+"It describes very well. A forecast or a flag is still not a hypothesis test.": "Përshkruan mirë. Një parashikim nuk është test hipoteze."
 },
 "rules": [
 [
